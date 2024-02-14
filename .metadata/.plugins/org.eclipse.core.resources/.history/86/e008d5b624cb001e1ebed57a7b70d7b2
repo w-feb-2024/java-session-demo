@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class MethodDemo {
+
+	// input - presentation layer
+	// process - bussiness logic layer
+	// output - presentaion layer
+	
+	// a progam to find the factorial of a number
+	public static void main(String[] args) {
+	// input
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int num = scan.nextInt();
+	// process
+		int result = 1;
+		for(int i=2;i<=num;i++) {
+			result = result * i;
+		}
+		
+	// output
+		System.out.println("Factorial of " + num + " is " + result);
+	}
+
+}
