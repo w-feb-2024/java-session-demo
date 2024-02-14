@@ -1,0 +1,37 @@
+
+public class FlowControlDemo {
+	// flow control
+	// 1. if statement
+	//		1.a simple if
+	//		1.b if..else
+	// 		1.c else if ladder
+	//		1.d nested if
+	// 2. switch case statement
+	public static void main(String[] args) {
+		char ch = 'e';
+		String result = null;
+		switch(ch) {
+		case 'a','e','i','o','u':
+			result = "a vowel";
+			break;
+		default:
+			result = "not a vowel";
+		}
+		System.out.println(ch + " is " + result);
+		
+		String day = "friday";
+		String result1 = "";
+		switch(day) {
+		case "monday","tuesday","wednesday","thursday","friday":
+			result1 = "a weekday";
+			break;
+		case "saturday","sunday":
+			result1 = "not a weekday";
+			break;
+		default:
+			result = "not a valid day";
+		}
+		System.out.println(day + " is " + result1);
+	}
+
+}

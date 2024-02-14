@@ -1,0 +1,42 @@
+
+
+
+public class DataTypesDemo {
+	
+	//
+	public static void main(String[] args) {
+		System.out.println("Hello Java in Eclipse!");
+		
+		// data types
+		// 2 categories of data-types
+		//		- primitive data types
+		//				- we have 8 primitive data types
+		//				- starts with small letter
+		//				- eg: int, double, boolean
+		//		- non-primitive/derived data types
+		//				- classes, arrays, enum
+		//				- String	
+		
+		// 8 primtive data types
+		// byte - 1 byte
+		// short - 2 bytes
+		// int - 4 bytes
+		// long - 8 bytes
+		// float
+		// double
+		// char
+		// boolean
+		
+		//depending on the scope of a variable we have
+		//		- local variable
+		//			- local variable if not initialize will hold garbage value
+		//		- instance/static variable
+		
+		
+		int mark; // decalaring a variable
+		System.out.println(mark);
+		mark = 60;
+		
+		
+	}
+}
