@@ -53,11 +53,12 @@ public class DataTypesDemo {
 		
 		boolean flag = false;
 		// boolean result = 34; / possible in c and c++, but but in java
-		
+		System.out.println(flag);
 		//float rate = (float)3.5;
 		//float rate = 3.5F;
 		float rate = 3.5f;
-		
+		System.out.println(rate);
+	
 		
 		
 	}

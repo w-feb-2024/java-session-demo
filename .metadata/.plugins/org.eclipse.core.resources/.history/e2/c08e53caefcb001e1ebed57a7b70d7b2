@@ -1,0 +1,12 @@
+
+public class Animal {
+	String name;
+	
+	void breathes() {
+		System.out.println(name + " breathes");
+	}
+	
+	void mobility() {
+		System.out.println(name + " moves");
+	}
+}

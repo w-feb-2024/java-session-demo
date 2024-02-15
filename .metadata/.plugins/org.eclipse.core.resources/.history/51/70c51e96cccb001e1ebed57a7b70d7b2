@@ -1,0 +1,27 @@
+
+public class FordFigo {
+	String model;
+	String color;
+	int seats;
+	
+	boolean switchOn() {
+		System.out.println(model + " switched on.");
+		return true;
+	}
+	
+	boolean accelerate() {
+		System.out.println(model + " accelerated.");
+		return true;
+	}
+	
+	boolean applyBrake() {
+		System.out.println(model + " applied manual brake.");
+		return true;
+	}
+	
+	boolean switchOff() {
+		System.out.println(model + " switched off.");
+		return true;
+	}
+	
+}

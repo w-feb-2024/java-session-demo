@@ -1,0 +1,33 @@
+
+public class Room {
+	int length;
+	int width;
+	int height;
+	int floorArea;
+	
+	
+	// constructor
+	//   - special method
+	//	 - does not have return type, not even void
+	//   - has the class name
+	// 	 - is called automatically when the object is created, we do not call it explicitly using object/reference variable
+	
+	// this - refers to the current object
+	
+	Room(int length, int width, int height){
+		this.length = length;
+		this.width = width;
+		this.height = height;
+	}
+	
+	int computeFloorArea() {
+		floorArea = length * width;
+		return floorArea;
+	}
+	
+	int computeCostOfPainting(int rate) {
+		int wallArea = 2 * height * (length + width);
+		int cost = wallArea * rate;
+		return cost;
+	}
+}

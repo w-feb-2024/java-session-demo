@@ -1,0 +1,13 @@
+
+public class FordFigoTitanium extends FordFigo{
+	int airbag;
+	
+	public FordFigoTitanium(String model, String color, int seats, int airbags) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	boolean useHandrest() {
+		System.out.println(model + " use handrest");
+		return true;
+	}
+}

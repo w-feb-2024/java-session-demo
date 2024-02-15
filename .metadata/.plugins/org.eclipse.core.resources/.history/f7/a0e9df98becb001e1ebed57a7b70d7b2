@@ -1,0 +1,33 @@
+
+public class ClassesAndObjectsDemo {
+
+	
+	// class
+	//	- sketch, blueprint, design, template
+	//  - a class can contain
+	//		- (instance/static)variables/ data members/ attributes/ properties
+	//		- methods/ functions/ behaviour/ member functions
+	//		- block of code
+	
+	
+	// class Person{
+	//		String gender;
+	//		int age;
+	//		String name;
+	// 		double height;
+	//		boolean talk(){}
+	// 	    boolean run() {}
+	//}
+	public static void main(String[] args) {
+		int mark;
+		mark = 60;
+		
+		Room diningRoom;
+		diningRoom = new Room();
+		
+		
+		
+
+	}
+
+}
