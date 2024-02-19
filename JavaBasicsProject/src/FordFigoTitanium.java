@@ -18,8 +18,8 @@ public class FordFigoTitanium extends FordFigo{
 	@Override
 	boolean applyBrake() {
 		//applyBrake();
-		super.applyBrake();
 		System.out.println(model + " applied ABS brakes.");
+		super.applyBrake();
 		return true;
 	}
 }

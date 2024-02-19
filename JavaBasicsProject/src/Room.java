@@ -1,12 +1,12 @@
 
 public class Room {
-	int length;
-	int width;
-	int height;
-	int floorArea;
+	private int length;
+	private int width;
+	private int height;
+	private int floorArea;
 	
-	int roomNo;
-	String color;
+	private int roomNo;
+	private String color;
 	
 	// constructor
 	//   - special method
@@ -44,6 +44,57 @@ public class Room {
 		this.color = color;
 	}
 	
+	// getter/accessors - read access to the private variable
+	public int getLength() {
+		return length;
+	}
+	
+	// setter/mutator - write access to the private variable
+	public void setLength(int length) {
+		this.length = length;
+	}
+	
+	
+	public int getWidth() {
+		return width;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	public int getFloorArea() {
+		return floorArea;
+	}
+
+	public void setFloorArea(int floorArea) {
+		this.floorArea = floorArea;
+	}
+
+	public int getRoomNo() {
+		return roomNo;
+	}
+
+	public void setRoomNo(int roomNo) {
+		this.roomNo = roomNo;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
 	int computeFloorArea() {
 		floorArea = length * width;
 		return floorArea;

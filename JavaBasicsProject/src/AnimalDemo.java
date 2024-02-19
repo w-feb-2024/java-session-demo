@@ -2,9 +2,14 @@
 public class AnimalDemo {
 
 	public static void main(String[] args) {
-		Animal animal = new Animal("animal");
-		animal.breathes();
-		animal.mobility();
+//		Interface interVar = new ImplClass1();
+//		interVar = new ImplClass2();
+//		Animal animal2 = new Snake("SNAKY");
+		
+//		Animal animal = new Animal("animal");
+//	
+//		animal.breathes();
+//		animal.mobility();
 
 		System.out.println("_______________________");
 		Dog dog = new Dog("DOG");
@@ -19,7 +24,10 @@ public class AnimalDemo {
 		snake.poisonous();
 		
 		System.out.println("_______________________");
-		Animal animal1 = new Dog("DOGGY");
+		//Animal animal1 = new Dog("DOGGY")
+		
+		Dog dog1 = new Dog("DOGGY");
+		Animal animal1 = dog1; //upcasting - implicitly casted
 		animal1.breathes();
 		animal1.mobility();
 		//animal1.friendly();

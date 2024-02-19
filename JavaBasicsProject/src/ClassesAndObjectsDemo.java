@@ -27,7 +27,7 @@ public class ClassesAndObjectsDemo {
 		
 		Room diningRoom = new Room(400, 200, 150);
 		
-//		diningRoom.length = 400;
+//		diningRoom.length = 400; // this is opposing encapsulation
 //		diningRoom.width = 200;
 //		diningRoom.height = 150;
 //		
@@ -44,6 +44,9 @@ public class ClassesAndObjectsDemo {
 		
 		System.out.println("Floor area : " + studyRoom.computeFloorArea());
 		System.out.println("Cost of painting : " + studyRoom.computeCostOfPainting(2));
+		
+		//System.out.println(studyRoom.length);
+		System.out.println(studyRoom.getLength());
 		
 		System.gc();
 		Runtime.getRuntime().gc();
