@@ -1,0 +1,17 @@
+
+public class InvalidOptionException extends RuntimeException{
+	
+	int option;
+
+	public InvalidOptionException(int option) {
+		super();
+		this.option = option;
+	}
+
+	@Override
+	public String getMessage() {
+		return option + " is not a valid option!";
+	}
+	
+	
+}

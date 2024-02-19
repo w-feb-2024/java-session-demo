@@ -1,0 +1,19 @@
+
+public class ThrowWithCustomExceptionDemo {
+
+	public static void main(String[] args) {
+		int opt = 8;
+		
+		try {
+			if(opt <=0 || opt > 5) {
+				InvalidOptionException ioe = new InvalidOptionException(opt);
+				throw ioe;
+			}
+		}catch(InvalidOptionException ioe) {
+			System.out.println(ioe.getMessage());
+		}
+		
+		
+	}
+
+}

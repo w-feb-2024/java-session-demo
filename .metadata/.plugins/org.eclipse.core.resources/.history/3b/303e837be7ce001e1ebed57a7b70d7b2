@@ -6,15 +6,9 @@ public class ThrowDemo {
 			//throw ae; // used to explicitly throw an exception
 		
 			Room room = null;
-			if(room != null)
-				room.computeFloorArea();
 			
+			room.computeFloorArea();
 			
-			int a = 5;
-			int b = 0;
-			if(b != 0) {
-				int c = a/b;
-			}
 		
 	}
 }

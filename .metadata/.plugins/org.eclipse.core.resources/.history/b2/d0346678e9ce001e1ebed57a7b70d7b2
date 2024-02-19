@@ -1,0 +1,22 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ThrowsDemo {
+
+	public static void main(String[] args) {
+		layer1();
+	}
+
+	static void layer1() throws FileNotFoundException {
+		layer2();
+	}
+	
+	static void layer2() throws FileNotFoundException {
+		layer3();
+	}
+	
+	static void layer3() throws FileNotFoundException{
+			FileInputStream fis = new FileInputStream("Sample.txt");
+
+	}
+}
