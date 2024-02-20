@@ -1,0 +1,18 @@
+package oops;
+
+public class Dog extends Animal{
+	
+	public Dog(String name) {
+		super(name);
+		System.out.println("test");
+	}
+
+	void friendly() {
+		System.out.println(name + " is friendly");
+	}
+	
+	@Override
+	void mobility() {
+		System.out.println(name + " walks.");
+	}
+}

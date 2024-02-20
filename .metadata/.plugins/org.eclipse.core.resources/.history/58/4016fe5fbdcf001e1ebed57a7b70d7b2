@@ -1,0 +1,10 @@
+package datehandling;
+
+public class DateTimeDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

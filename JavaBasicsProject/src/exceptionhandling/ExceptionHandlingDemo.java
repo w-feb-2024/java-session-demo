@@ -1,0 +1,65 @@
+package exceptionhandling;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class ExceptionHandlingDemo {
+
+	// try
+	// catch
+	// finally
+	// throw
+	// throws
+	
+	// seq allowed
+	// try - catch, catch
+	// try - catch, catch - finally
+	// try - finally 
+	
+	
+	public static void main(String[] args) {
+		int a = 20;
+		int b = 0;
+		int c = 0;
+		
+		System.out.println("Going to divide:");
+		
+		try {
+			c = a / b;
+			// 1. in the above line JVM figures out an exception has occured
+			// 2. the jvm identifies the type of exception that occured i.e ArithmeticException
+			// 3. an object of ArithmeticException is created
+			// 4. the exception object is thrown implicity
+		} catch(ArithmeticException ae) {
+			System.out.println(ae.getMessage());
+			b = 1;
+			c = a / b;
+		}
+		System.out.println("Division over");
+		System.out.println("the answer is  : " + c);
+		
+		
+			Scanner scanner = new Scanner(System.in);
+
+			try {
+				System.out.print("Enter the first number: ");
+				int a1 = scanner.nextInt();
+
+				System.out.print("Enter the second number: ");
+				int b1 = scanner.nextInt();
+
+				int result = a1 / b1;
+
+				System.out.println("Result: " + result);
+
+			} catch (InputMismatchException e) {
+				System.out.println(e.getMessage());
+			} catch (ArithmeticException e) {
+				System.out.println(e.getMessage());
+			} catch (Exception e) {
+				System.out.println(e.getMessage());
+			}
+			
+			// 
+		
+	}
+}

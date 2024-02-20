@@ -1,0 +1,7 @@
+package filehandling;
+
+public class Account {
+	String name;
+	double balance;
+	int atmPin;
+}

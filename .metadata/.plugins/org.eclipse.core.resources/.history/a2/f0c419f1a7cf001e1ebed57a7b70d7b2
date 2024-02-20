@@ -1,0 +1,9 @@
+package filehandling;
+
+public class FileDemo {
+
+	public static void main(String[] args) {
+		File file = new File("Sample.txt");
+	}
+
+}

@@ -1,0 +1,16 @@
+package filehandling;
+
+public class Account implements Serializable {
+	String name;
+	double balance;
+	int atmPin;
+	
+	public Account(String name, double balance, int atmPin) {
+		super();
+		this.name = name;
+		this.balance = balance;
+		this.atmPin = atmPin;
+	}
+	
+	
+}

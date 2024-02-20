@@ -1,0 +1,10 @@
+package filehandling;
+
+public class ObjectSerializationDemo {
+
+	public static void main(String[] args) {
+		FileOutputStream fout = new FileOutputStream("output.txt");
+		
+	}
+
+}

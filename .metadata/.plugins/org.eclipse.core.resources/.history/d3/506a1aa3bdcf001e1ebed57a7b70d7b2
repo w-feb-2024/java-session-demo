@@ -1,0 +1,14 @@
+package datehandling;
+
+import java.time.LocalDate;
+
+public class DateTimeDemo {
+
+	public static void main(String[] args) {
+		LocalDate todaysDate = LocalDate.now();
+		System.out.println(todaysDate);
+		LocalDate date = LocalDate.of(2024, 01, 01);
+		System.out.println(date);
+	}
+
+}
