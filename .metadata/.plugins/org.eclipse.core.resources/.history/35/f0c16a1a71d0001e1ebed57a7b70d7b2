@@ -1,0 +1,17 @@
+package multithreading;
+
+public class ChildThread1 extends Thread{
+
+	String threadName;
+	
+	public ChildThread1(String threadName) {
+		super();
+		this.threadName = threadName;
+		setName(threadName);
+	}
+
+	@Override
+	public void run() {
+		
+	}
+}

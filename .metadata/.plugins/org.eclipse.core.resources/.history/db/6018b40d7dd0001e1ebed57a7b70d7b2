@@ -1,0 +1,19 @@
+package multithreading;
+
+public class Thread2 implements Runnable{
+	
+	String threadName;
+	
+	public Thread2(String threadName) {
+		this.threadName = threadName;
+		Thread t = new Thread(this);
+	}
+	
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

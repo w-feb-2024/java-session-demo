@@ -1,0 +1,9 @@
+package multithreading;
+
+public class ChildThread1 extends Thread{
+
+	@Override
+	public void run() {
+		
+	}
+}

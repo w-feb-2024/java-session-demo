@@ -1,0 +1,30 @@
+package multithreading;
+
+public class Thread1 extends Thread{
+
+	String threadName;
+	
+	public Thread1(String threadName) {
+		super();
+		this.threadName = threadName;
+//		System.out.println(getPriority());
+//		System.out.println(isDaemon());
+//		System.out.println(getState());
+		setName(threadName);
+	}
+
+	@Override
+	public void run() {
+		for(int i=1;i<=5;i++) {
+//			System.out.println("State : " + getState());
+//			System.out.println("is Deamon : " + isDaemon());
+			System.out.println(getName() + " : " + i);
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		System.out.println(getName() + " completed");
+	}
+}

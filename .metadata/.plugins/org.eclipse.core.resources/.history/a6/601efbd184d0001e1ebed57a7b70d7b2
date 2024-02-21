@@ -1,0 +1,21 @@
+package multithreading;
+
+public class ThreadPriority implements Runnable{
+
+	String name;
+	Thread t;
+	
+	public ThreadPriority(String name) {
+		this.name = name;
+		t = new Thread(this);
+		t.setName(name);
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

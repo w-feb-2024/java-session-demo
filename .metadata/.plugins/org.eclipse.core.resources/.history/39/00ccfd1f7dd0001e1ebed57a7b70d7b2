@@ -1,0 +1,23 @@
+package multithreading;
+
+public class Thread2 implements Runnable{
+	
+	String threadName;
+	Thread t;
+	
+	public Thread2(String threadName) {
+		this.threadName = threadName;
+		t = new Thread(this);
+		t.setName(threadName);
+	}
+	
+
+	@Override
+	public void run() {
+		for(int i=1;i<5;i++) {
+			System.out.println(t.getName() + " : " + i);
+			Thread.sleep(1000);
+		}
+	}
+
+}

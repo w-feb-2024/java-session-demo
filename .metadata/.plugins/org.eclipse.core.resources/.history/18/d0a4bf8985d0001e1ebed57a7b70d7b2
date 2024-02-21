@@ -1,0 +1,18 @@
+package multithreading;
+
+public class ThreadPriorityDemo {
+
+	public static void main(String[] args) {
+		ThreadPriority tp1 = new ThreadPriority("ONE");
+		ThreadPriority tp2 = new ThreadPriority("TWO");
+		
+		tp1.t.setPriority(Thread.MIN_PRIORITY);
+		tp2.t.setPriority(Thread.MAX_PRIORITY);
+		
+		tp1.t.start();
+		tp2.t.start();
+		
+		Thread.sleep(1000);
+	}
+
+}

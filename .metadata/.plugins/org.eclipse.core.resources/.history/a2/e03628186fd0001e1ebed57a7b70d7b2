@@ -1,0 +1,18 @@
+
+public class MainThreadDemo {
+
+	public static void main(String[] args) {
+		Thread mainThread = Thread.currentThread();
+		System.out.println(mainThread.getName());
+		System.out.println(mainThread.getPriority());
+		System.out.println(mainThread.isAlive());
+		System.out.println(mainThread.isDaemon());
+		System.out.println(mainThread.getThreadGroup());
+		System.out.println(mainThread.getState());
+		
+		mainThread.setName("myMainThread");
+		System.out.println(mainThread.getName());
+
+	}
+
+}
