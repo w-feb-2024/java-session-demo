@@ -1,0 +1,7 @@
+package genericsandcollection;
+
+import java.util.Comparator;
+
+public class EmployeeIdComparison implements Comparator{
+
+}

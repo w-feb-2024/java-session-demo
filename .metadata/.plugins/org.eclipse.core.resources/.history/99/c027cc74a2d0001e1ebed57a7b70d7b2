@@ -1,0 +1,10 @@
+package multithreading;
+
+public class ResourcePrinter {
+	void display(String msg) {
+		System.out.print("[");
+		System.out.print(msg);
+		Thread.sleep(500);
+		System.out.println("]");
+	}
+}

@@ -1,0 +1,11 @@
+package genericsandcollection;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+	public static void main(String args[]) {
+		SortedSet<String> allNames = new TreeSet<String>();
+		
+	}
+}

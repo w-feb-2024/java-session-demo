@@ -1,0 +1,15 @@
+package multithreading;
+
+public class ResourcePrinter {
+//	synchronized void display(String msg) {
+	void display(String msg) {
+		System.out.print("[");
+		System.out.print(msg);
+		try {
+			Thread.sleep(500);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("]");
+	}
+}

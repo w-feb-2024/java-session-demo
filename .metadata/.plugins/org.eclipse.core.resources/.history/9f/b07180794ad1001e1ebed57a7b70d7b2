@@ -1,0 +1,39 @@
+package genericsandcollection;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		Set<String> allCountries = new HashSet<>();
+		
+		// C - create
+		allCountries.add("India");
+		allCountries.add("Sri Lanka");
+		allCountries.add("China");
+		allCountries.add("India");
+		
+		// R- read
+		// 1
+		for(String country: allCountries) {
+			System.out.println(country);
+		}
+		System.out.println("--------------");
+		// 2
+		Iterator itr = allCountries.iterator();
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+		System.out.println("--------------");
+		// 3
+		
+		// R - Remove
+		allCountries.remove("China");
+		for(String country: allCountries) {
+			System.out.println(country);
+		}
+	}
+
+}

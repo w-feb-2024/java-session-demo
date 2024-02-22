@@ -1,0 +1,14 @@
+package genericsandcollection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		//ArrayList<Integer> allNumbers = new ArrayList<>(); // not recomended
+		
+		List<Integer> allNumbers = new ArrayList<>();
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class Demo {
+
+	public static void main(String[] args) {
+		Box box1 = new Box(300,200,100);
+		System.out.println(box1.toString());
+	}
+
+}

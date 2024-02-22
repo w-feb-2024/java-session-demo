@@ -1,0 +1,25 @@
+package genericsandcollection;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class TreeSetDemo2 {
+
+	public static void main(String[] args) {
+		Employee emp1 = new Employee(101, "Will Smith", "Manager");
+		Employee emp2 = new Employee(102, "Nocholas Cage", "Staff");
+		Employee emp3 = new Employee(103, "Jennifer Lopez", "HR");
+		
+		Employee emp4 = new Employee(102, "Nocholas Cage", "Staff");
+		
+		SortedSet<Employee> allEmp = new TreeSet<>();
+		
+		allEmp.add(emp1);
+		allEmp.add(emp2);
+		allEmp.add(emp3);
+		allEmp.add(emp4);
+		
+		
+	}
+
+}
