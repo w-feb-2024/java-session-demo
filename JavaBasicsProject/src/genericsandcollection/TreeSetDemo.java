@@ -11,6 +11,8 @@ public class TreeSetDemo {
 		allNames.add("Sirius Black");
 		allNames.add("Draco Malfoy");
 		allNames.add("Dobby");
+		allNames.add("Draco Malfoy");
+		
 		
 		for(String eachName: allNames) {
 			System.out.println(eachName);

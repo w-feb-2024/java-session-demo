@@ -1,0 +1,38 @@
+package lambdaexpressions;
+public class Demo {
+	// Functional Interfaces
+	//		- interfaces with exactly one abstract method
+	//		- these interfaces can have any number of default and static methods
+	//		- known as SAM interfaces earlier
+	public static void main(String[] args) {
+		// first way - creating a class and implementing the functional interface
+		Operation add = new Addition();
+		System.out.println(add.operate(4, 5));
+
+		Operation product = new Multiplication();
+		System.out.println(product.operate(6, 8));
+		
+		// second way - anonymous class, a class that does not have a name
+		Operation add1 = new Operation() {
+			@Override
+			public int operate(int num1, int num2) {
+				return (num1 + num2);
+			}
+		};
+		
+		System.out.println(add1.operate(2, 8));
+		
+		Operation product1 = new Operation() {
+			@Override
+			public int operate(int a, int b) {
+				return (a * b);
+			}
+			
+		};
+	}
+	
+		
+		// third way - lambda expressions
+				
+
+}

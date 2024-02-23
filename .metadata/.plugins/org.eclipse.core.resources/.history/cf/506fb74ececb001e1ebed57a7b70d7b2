@@ -1,9 +1,0 @@
-
-public class FordFigoTitanium extends FordFigo{
-	int airbag;
-	
-	boolean useHandrest() {
-		System.out.println(model + " use handrest");
-		return boolean;
-	}
-}

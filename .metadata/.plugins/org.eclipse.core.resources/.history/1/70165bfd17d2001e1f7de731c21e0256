@@ -1,0 +1,18 @@
+package genericsandcollection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class HashMapDemo {
+
+	public static void main(String[] args) {
+		Map<String, Long> phoneBook = new HashMap<>();
+		
+		// C - Create
+		phoneBook.put("abc", 1234567890L);
+		phoneBook.put("xyz", 111111111L);
+		phoneBook.put("lmn", 2222222222L);
+		phoneBook.put("asd", 5555555555L);
+	}
+
+}

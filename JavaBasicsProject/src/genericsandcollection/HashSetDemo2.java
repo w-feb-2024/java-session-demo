@@ -26,6 +26,8 @@ public class HashSetDemo2 {
 		allEmployees.add(emp2);
 		allEmployees.add(emp3);
 		allEmployees.add(emp4);
+		allEmployees.add(null);
+		allEmployees.add(null);
 		
 		for(Employee eachEmp : allEmployees) {
 			System.out.println(eachEmp);

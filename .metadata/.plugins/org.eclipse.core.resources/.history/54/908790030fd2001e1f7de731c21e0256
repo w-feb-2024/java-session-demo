@@ -1,0 +1,13 @@
+package genericsandcollection;
+
+import java.util.function.Supplier;
+
+public class LambdaDemo {
+
+	public static void main(String[] args) {
+		//1. to generate a random number between 0 and 100
+		Supplier<Integer> randomGeneration = () -> (int)(Math.random() * 100);
+		System.out.println(randomGeneration.get());
+	}
+
+}

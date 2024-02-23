@@ -41,7 +41,10 @@ public class ArrayListDemo {
 		System.out.println("---------------");
 
 		//4 - using lambda expressions
+		allNumbers.forEach((item)->System.out.println(item));
+	
 		
+		System.out.println("---------------");
 		// U - Update
 		allNumbers.set(1, 65);
 		for(int eachNum: allNumbers) {
@@ -54,6 +57,17 @@ public class ArrayListDemo {
 		for(int eachNum: allNumbers) {
 			System.out.println(eachNum);
 		}
+		
+		for(Integer num: allNumbers) {
+			if(num < 50) {
+				System.out.println(num);
+				//allNumbers.remove(Integer.valueOf(num));
+			}
+		}
+		System.out.println("---------------");
+
+		allNumbers.removeIf((item) -> item < 50);
+		allNumbers.forEach((item)-> System.out.println(item));
 	}
 
 }

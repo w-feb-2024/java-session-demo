@@ -1,0 +1,63 @@
+package lambdaexpressions;
+
+import java.util.function.BiFunction;
+
+public class Demo {
+	// Functional Interfaces
+	//		- interfaces with exactly one abstract method
+	//		- these interfaces can have any number of default and static methods
+	//		- known as SAM interfaces earlier
+	public static void main(String[] args) {
+		// first way - creating a class and implementing the functional interface
+		Operation add = new Addition();
+		System.out.println(add.operate(4, 5));
+
+		Operation product = new Multiplication();
+		System.out.println(product.operate(6, 8));
+		
+		// second way - anonymous class, a class that does not have a name
+		//				- the anonymous class is implementing the functional interface
+		//				- here we are creating an object of the anonymous class on the right side
+		Operation add1 = new Operation() {
+			@Override
+			public int operate(int num1, int num2) {
+				return (num1 + num2);
+			}
+			
+//			void display() {
+//				System.out.println("hello");
+//			}
+		};
+		System.out.println(add1.operate(2, 8));
+		
+		Operation product1 = new Operation() {
+			@Override
+			public int operate(int a, int b) {
+				return (a * b);
+			}
+		};
+		System.out.println(product1.operate(3, 6));
+		
+		// third way - lambda expressions
+		//				- lambda expressions can implement only functional interfaces
+		//				- lambda expressions cannot implements non-functional interfaces
+		//				-- however the first two ways can implement non functional interfaces
+		Operation add2 = (num1, num2) -> num1 + num2;
+		System.out.println(add2.operate(1, 7));
+		
+		Operation product2 = (n1, n2) -> n1 * n2;
+		System.out.println(product2.operate(3, 5));
+		
+		BiFunction<Integer, Integer, Integer> add3 = (a, b) -> a + b;
+		System.out.println(add3.apply(2, 3));
+		
+		BiFunction<Integer, Integer, Integer> product3 = (a, b) -> a * b;
+		System.out.println(product3.apply(2, 3));
+		
+	}
+	
+		
+		
+				
+
+}

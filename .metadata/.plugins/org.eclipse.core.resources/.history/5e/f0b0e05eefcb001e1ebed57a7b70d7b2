@@ -1,7 +1,0 @@
-
-public class Animal {
-	String name;
-	void breathes() {
-		System.out.println(name + " breathes");
-	}
-}

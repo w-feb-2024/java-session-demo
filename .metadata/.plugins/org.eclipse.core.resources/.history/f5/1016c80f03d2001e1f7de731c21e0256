@@ -1,0 +1,13 @@
+package lambdaexpressions;
+public class Demo {
+	// Functional Interfaces
+	//		- interfaces with exactly one abstract method
+	//		- these interfaces can have any number of default and static methods
+	//		- known as SAM interfaces earlier
+	public static void main(String[] args) {
+		Operation add = new Addition();
+		System.out.println(add.operate(4, 5));
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package lambdaexpressions;
+
+public class Multiplication implements Operation {
+
+	@Override
+	public int operate(int a, int b) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

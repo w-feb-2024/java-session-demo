@@ -1,0 +1,10 @@
+package genericsandcollection;
+
+public class HashMapDemo {
+
+	public static void main(String[] args) {
+		Map<String, Long> phoneBook = new HashMap<>();
+		
+	}
+
+}
