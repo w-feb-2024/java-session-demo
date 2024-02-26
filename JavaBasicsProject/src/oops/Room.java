@@ -3,12 +3,15 @@ package oops;
 public class Room {
 	private int length;
 	private int width;
-	private int height;
+	private static int height;
 	private int floorArea;
 	
 	private int roomNo;
 	private String color;
 	
+	static {
+		height = 150;
+	}
 	// constructor
 	//   - special method
 	//	 - does not have return type, not even void
@@ -21,6 +24,27 @@ public class Room {
 	//		- multiple constructors with different arguments
 	// constructor chaining
 	//		- we can call one constructor from another constructor using this()
+	
+	//final
+	// variable(local and instance)
+	// method parameters
+	// method
+	// class
+	
+	// static
+	// variable - static variable shares common memory accross objects
+	//			- these variable's memory are allocated when the class is loaded into the memory
+	//			- static variables can be access by their class name
+	// method - 
+	// class - only if it is an inner class
+	// block - the static blocks are called after the static variable's memory is allocated
+	//		- can have multiple static blocks in a class and they are called in the order in which they are writtern
+	//		- purpose is to initialize static variables
+	
+	// can a static method access a non static member? no
+	// can a non static method access a static member? yes
+	
+	// public static final NORM_PRIORITY;
 	
 	public Room(int length, int width, int height){
 		this.length = length;
@@ -105,5 +129,10 @@ public class Room {
 		int wallArea = 2 * height * (length + width);
 		int cost = wallArea * rate;
 		return cost;
+	}
+	
+	public static int twiceHeight() {
+		//System.out.println(length);
+		return 2 * height;
 	}
 }
