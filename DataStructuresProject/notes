@@ -1,0 +1,16 @@
+data structures
+---------------
+	- the way in which the data is stored/organized
+	
+types
+-----
+	- linear data structures 
+		- array, linked list
+	- non-linear data structures
+		- tree, heap, graph, trie
+		
+space complexity
+time complexity
+big O notation
+--------------
+O(1), O(n), O(n^2), O(logn), O(2^n), O(n!)
