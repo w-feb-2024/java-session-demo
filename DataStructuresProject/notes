@@ -14,3 +14,14 @@ time complexity
 big O notation
 --------------
 O(1), O(n), O(n^2), O(logn), O(2^n), O(n!)
+
+
+
+hashtable
+---------
+	- key value pair
+	- constant time complexity when retrieving the value with the key
+	- in our implemtation of hash table we will use an array to back the hashtable
+	- when we insert data, we will specify the name of student as the key and the student object will be the value
+	- The key can be of any data type. here we hash the key to an integer, now this integer will be one of the index of the array
+	- internally, the array indices will be the key and the elements of the array will be the value
