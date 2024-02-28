@@ -22,8 +22,8 @@ public class BookDaoCollectionImpl implements BookDao{
 	
 	@Override
 	public List<BookPojo> fetchAllBook() {
-		List<BookPojo> allBooks = new ArrayList<>();
-		Collections.copy(bookDataStore, allBooks);
+		List<BookPojo> allBooks = new ArrayList<>(bookDataStore.size());
+		allBooks.addAll(bookDataStore);
 		return allBooks;
 	}
 
@@ -37,6 +37,7 @@ public class BookDaoCollectionImpl implements BookDao{
 		if(searchedBook.size() != 0) {
 			fetchedBook = searchedBook.get(0);
 		}
+		if(fetchedBook == null) return Optional.empty();
 		return Optional.of(fetchedBook);
 	}
 
