@@ -25,3 +25,123 @@ hashtable
 	- when we insert data, we will specify the name of student as the key and the student object will be the value
 	- The key can be of any data type. here we hash the key to an integer, now this integer will be one of the index of the array
 	- internally, the array indices will be the key and the elements of the array will be the value
+	
+non- linear data structures
+----------------------------
+Tree
+	- herirachical data structures
+	- root node
+	- parent node
+	- child node
+	- sibling nodes : nodes which have the same parent
+	- leaf node : which do not have children
+	- internal node : a node with atleast one child
+	- external node : a node with no children
+	- subtree
+	- level
+	- edge : connection between one node and another node
+	- height of a node - the longest path from that node it its leaf node ( goes downwards)
+	- depth of a node - how deep is the node from the root node - no of edges from that node to the root ( goes upwards)
+	- height of the tree - height of the root node
+	- path : a sequence of nodes and edges connecting a node with its descendant
+	- descendant
+	- ancestor
+	
+Binary Tree
+	- a special tree with some rules
+		- Every node can have 0 or 1 or 2 child nodes
+		- the maximum number of children a node can have is 2
+		- these children are called left node and right node
+		- eg:
+		
+				25
+			   /  \
+			  23   12
+			 /  \    \
+			45  5     7
+			
+		- types of binary tree
+			- complete binary tree
+				- every level will have 2 children except the leaf nodes. the last level may or may not have 2 children.
+				- in a complete binary tree all nodes have to be to the left as much possible
+				- eg :
+				
+						25
+					   /  \
+					  23   12
+					 /  \  / \
+					45  5 8   89
+				   /
+				  21
+			- full binary tree
+				- a tree is considered a full binary binary tree if every node has exactly 0 or 2 children
+				- eg: 
+						25
+					   /  \
+					  23   12
+					 /  \  / \
+					45  5 8   89
+							
+Binary Search Tree(BST)(implementation)
+	- main reason for BST to become popular is because insertion, deletion and retrievals can be done in O(logn).
+	- also searching for an element in a unsorted list of data is faster. the time complexity is O(logn)
+	- binary search timecomplexity + sorting time complexity is more that time complexity of retrieving a data from a BST
+	- rules of BST
+		- the left child node always has a value smaller than its parent
+		- the right child node always has a value greater than the parent
+		- in other words, everything on the left of the root is smaller than the root
+		- likewise everything that is on the right of the root is greater than the root
+	- insertion
+	
+	- traversal
+		- 4 types of traversal
+			- level traversal : not used much
+			- pre-order traversal
+				- visit the root of every subtree first
+			- postorder traversal
+				- visit the root of every subtree last
+			- inorder traversal
+				- visit left child, then parent , then right child
+			eg:
+			   
+			   25
+			   / \
+			 20   27
+			/ \   / \
+		  15  22 26 30
+		            / \
+		           29 32
+		           
+		 level traversal 	 : 25, 20, 27, 15, 22, 26, 30, 29, 32
+		 pre-order traversal : 25, 20, 15, 22, 27, 26, 30, 29, 32
+		 post-order traversal: 15, 22, 20, 26, 29, 32, 30, 27, 25
+		 in-order traversal  : 15, 20, 22, 25, 26, 27, 29, 30, 32 (data is automatically retrived in sorted order)
+		 
+	
+	- min, max
+	
+	
+	- delete
+		- 3 cases
+			1. the node is a leaf
+				- very simple, just remove the node from the as it has no child nodes
+			2. the node has one child
+				- very simple, just replace the node with the deleted node's child
+			3. the node has two children
+				- need to figure out the replacement node
+				- we want minimal disruption and preserve the structure of BST
+				- we can take the replacement node from either the deleted nodes right subtree or left subtree
+				- if you are taking from the left subtree, then take the largest value in the left subtree
+				- if you are taking from the right subtree, then take smallest value in the right sub tree
+				- choose one stick to it (any one)
+
+Heap (implementation)
+
+
+Graph (implementation)
+
+
+
+
+
+
