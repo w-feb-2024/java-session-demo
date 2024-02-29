@@ -58,4 +58,36 @@ public class Presentation {
 			System.out.println("Sorry! Book id does not exist!");
 		}
 	}
+	
+	public static void displayInvalidOptionMessage() {
+		System.out.println("***********************************");
+		System.out.println("Invalid Menu Option. Please Try Again!");
+		System.out.println("***********************************");
+	}
+	
+	public static char displayConfirmation() {
+		System.out.println("***********************************");
+		System.out.println("Are you sure you want to remove the book(y/n)?");
+		System.out.println("***********************************");
+		char ans = scan.next().charAt(0);
+		return ans;
+	}
+	
+	public static void displayDeleteConfirmation(int bookId) {
+		System.out.println("***********************************");
+		System.out.println("Book with id: " + bookId + " has been removed!");
+		System.out.println("***********************************");
+	}
+	
+	public static String scanGenre() {
+		System.out.println("Please enter the Genre:");
+		String genre = scan.next();
+		return genre;
+	}
+	
+	public static void displayNoGenreFound(String genre) {
+		System.out.println("***********************************");
+		System.out.println("No books found in the genre: " + genre);
+		System.out.println("***********************************");
+	}
 }

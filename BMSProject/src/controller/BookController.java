@@ -19,9 +19,8 @@ public class BookController {
 	public void start() {
 		
 		// will call the display menu for books
-		int option = 1;
-		while(option <=7 && option > 0) {
-			option = Presentation.displayMenu();
+		while(true) {
+			int option = Presentation.displayMenu();
 			// depending on the menu option selected, controller will call the respective method of service
 			switch(option) {
 				case 1:
@@ -33,17 +32,46 @@ public class BookController {
 					int bookId = Presentation.scanBookId();
 					// then call bookService.fetchABook
 					Optional<BookPojo> bookPojoOptional = bookService.fetchABook(bookId);
+					// send the optional to be displayed in Presentaion
 					Presentation.displayOptionalBookPojo(bookPojoOptional);
 					break;
 				case 3:
+					// get the genre as input from the user
+					String genre = Presentation.scanGenre();
+					// fetch books by genre
+					List<BookPojo> allBooksGenre = bookService.fetchByBookGenre(genre);
+					// send the collection to be displayed in presentation
+					if(allBooksGenre.isEmpty()) {
+						Presentation.displayNoGenreFound(genre);
+					}else {
+						Presentation.displayFetchAllBooks(allBooksGenre);
+					}
+					break;
 				case 4:
 				case 5:
 				case 6:
+					// 1. fetch the book with the id, and send to presentaion layer to be displayed
+					int deleteBookId = Presentation.scanBookId();
+					Optional<BookPojo> deleteBookPojoOptional = bookService.fetchABook(deleteBookId);
+					Presentation.displayOptionalBookPojo(deleteBookPojoOptional);
+					// 2. ask for confirmation to delete
+					if(deleteBookPojoOptional.isPresent()) {
+						char ch = Presentation.displayConfirmation();
+						if(ch == 'y') {
+							// 3. go ahead and delete the book
+							bookService.removeBook(deleteBookId);
+							Presentation.displayDeleteConfirmation(deleteBookId);
+						}
+					}
+					break;
 				case 7:
 					Presentation.displayExitMessage();
 					System.exit(0);
-				
+				default:
+					Presentation.displayInvalidOptionMessage();
+					
 			}
+			
 		}
 	 
 	}
