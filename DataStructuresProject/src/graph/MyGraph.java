@@ -91,9 +91,9 @@ public class MyGraph {
 		queue.add(startVertex);
 		while(!queue.isEmpty()) {
 			String vertex = queue.poll();
-			for(Vertex eachAdjVertex: graph.getAllAdjacentVertex(vertex)) {
-				if(!visited.contains(vertex)) {
-					visited.add(vertex);
+			if(!visited.contains(vertex)) {
+				visited.add(vertex);
+				for(Vertex eachAdjVertex: graph.getAllAdjacentVertex(vertex)) {
 					queue.add(eachAdjVertex.getLabel());
 				}
 			}
