@@ -5,7 +5,9 @@ import java.util.Objects;
 public class Vertex {
 	private String label;
 
-	public Vertex(String lable) {
+	// Below commented line was the reason the graph was not getting constructed during the session - typo on String lable
+	//public Vertex(String lable) {
+	public Vertex(String label) {
 		this.label = label;
 	}
 

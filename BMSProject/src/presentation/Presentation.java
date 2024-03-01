@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
+import model.AuthorPojo;
 import model.BookPojo;
 
 public class Presentation {
@@ -34,8 +35,11 @@ public class Presentation {
 	}
 	
 	public static void displayFetchAllBooks(List<BookPojo> allBooks) {
+		System.out.println("*******************************************************************************************************");
+		System.out.println("ID\tTITLE\t\t\t\t\t\tAuthor\t\tGENRE\t\tCOST");
+		System.out.println("*******************************************************************************************************");
 		for(BookPojo eachBook: allBooks) {
-			System.out.println(eachBook);
+			System.out.println(eachBook.getBookId() + "\t" + eachBook.getBookTitle() + "\t\t" + eachBook.getAuthor().getAuthorLastName() + "\t\t" + eachBook.getBookGenre() + "\t\t" + eachBook.getBookPrice());
 		}
 	}
 	
@@ -103,8 +107,8 @@ public class Presentation {
 		System.out.println("Enter Book Cost: ");
 		int bCost = scan.nextInt();
 		
-		// construct the book pojo object
-		BookPojo newBook = new BookPojo(0, bTitle, null, bCost, bGenre, "");
+		// construct the new book pojo object
+		BookPojo newBook = new BookPojo(0, bTitle, new AuthorPojo(0, null, null), bCost, bGenre, "");
 		return newBook;
 
 	}

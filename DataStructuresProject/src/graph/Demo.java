@@ -17,6 +17,8 @@ public class Demo {
 		graph.addEdge("Alice", "Maria");
 		graph.addEdge("Rob", "Maria");
 		
+		System.out.println(graph.getAllAdjacentVertex("Bob"));
+		
 		System.out.println("DFS : " + graph.depthFirstTraversal(graph, "Bob"));
 		
 		System.out.println("BFS : " + graph.breadthFirstTraversal(graph, "Bob"));

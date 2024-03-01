@@ -89,11 +89,12 @@ public class MyGraph {
 		Queue<String> queue = new LinkedList<>();
 		
 		queue.add(startVertex);
+		visited.add(startVertex); // missed this line during the session
 		while(!queue.isEmpty()) {
 			String vertex = queue.poll();
 			for(Vertex eachAdjVertex: graph.getAllAdjacentVertex(vertex)) {
-				if(!visited.contains(vertex)) {
-					visited.add(vertex);
+				if(!visited.contains(eachAdjVertex.getLabel())) {
+					visited.add(eachAdjVertex.getLabel());
 					queue.add(eachAdjVertex.getLabel());
 				}
 			}
