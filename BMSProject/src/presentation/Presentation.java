@@ -90,4 +90,28 @@ public class Presentation {
 		System.out.println("No books found in the genre: " + genre);
 		System.out.println("***********************************");
 	}
+	
+	public static BookPojo scanBookInput() {
+		System.out.println("***********************************");
+		System.out.println("Please enter details of the book...");
+		System.out.println("***********************************");
+		System.out.println("Enter Book Title: ");
+		scan.nextLine();
+		String bTitle = scan.nextLine();
+		System.out.println("Enter Book Genre: ");
+		String bGenre = scan.nextLine();
+		System.out.println("Enter Book Cost: ");
+		int bCost = scan.nextInt();
+		
+		// construct the book pojo object
+		BookPojo newBook = new BookPojo(0, bTitle, null, bCost, bGenre, "");
+		return newBook;
+
+	}
+	
+	public static void displayBookPojo(BookPojo book) {
+		System.out.println("***********************************");
+		System.out.println("New Book added with book id : " + book.getBookId());
+		System.out.println("***********************************");
+	}
 }

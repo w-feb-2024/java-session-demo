@@ -48,6 +48,10 @@ public class BookController {
 					}
 					break;
 				case 4:
+					BookPojo book = Presentation.scanBookInput();
+					BookPojo addedBook = bookService.addBook(book);
+					Presentation.displayBookPojo(addedBook);
+					break;
 				case 5:
 				case 6:
 					// 1. fetch the book with the id, and send to presentaion layer to be displayed

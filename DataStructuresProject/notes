@@ -29,6 +29,7 @@ hashtable
 non- linear data structures
 ----------------------------
 Tree
+----
 	- herirachical data structures
 	- root node
 	- parent node
@@ -48,6 +49,7 @@ Tree
 	- ancestor
 	
 Binary Tree
+-----------
 	- a special tree with some rules
 		- Every node can have 0 or 1 or 2 child nodes
 		- the maximum number of children a node can have is 2
@@ -83,6 +85,7 @@ Binary Tree
 					45  5 8   89
 							
 Binary Search Tree(BST)(implementation)
+---------------------------------------
 	- main reason for BST to become popular is because insertion, deletion and retrievals can be done in O(logn).
 	- also searching for an element in a unsorted list of data is faster. the time complexity is O(logn)
 	- binary search timecomplexity + sorting time complexity is more that time complexity of retrieving a data from a BST
@@ -136,12 +139,83 @@ Binary Search Tree(BST)(implementation)
 				- choose one stick to it (any one)
 
 Heap (implementation)
+---------------------
+	- has no relation to the heap memory that we talk about in object creation
+	- heap is a special binary tree
+	- properties
+		1. It is a binary tree
+		2. It is a complete binary tree
+			- all levels are full except the last level
+			- all nodes should be pushed to the leftmost side of the tree
+		3. must satisfy heap property depending on whether it is max heap or a min heap
+			- max heap
+				- Every parent is greater than or equal to its children
+			- min heap
+				- Every parent is less than or equal to its children
 
-
+	- how are we going to implement the heap? using array
+	- eg: Max heap
+	
+				22
+			   /  \
+			 19   18
+			/  \  / \ 
+		   15  3 14  4
+		  /
+		 12  
+	- we store the elements of the heap in an array
+	- we put the root in array[0],
+		0-22, 1-19, 2-18, 3-15, 4-3, 5- 14, 6-4, 7-12
+		[22, 19, 18, 15, 3, 14, 4, 12]
+	- if want to find the index of 
+		left child -----> (2 * indexOfParent) + 1
+		right child ----> (2 * indexOfParent) + 2
+		parent ---------> floor((indexofChild - 1) / 2)
+		
+		right child of 18 with index 2 ------> (2 * 2) + 2 = 6th index
+		left child of 15 with index 3 -----> (2 * 3) + 1 = 7th index
+		parent of 3 with index 4 --------> (4-1)/2 = 1st index
+		
+	- insertion
+		1. always add new item to the left of the heap
+		2. then heapify above.
+				heapify means fixing the heap
+		
+		- in the array, add the new item to the last index
+		- compare this item with its parent
+		- if it is greater than the parent, swap it
+		- else leave it
+		- keep doing this till you hit the root
+		
+	- deletion
+		- must choose the replacement node
+		- will take the rightmost value as the replacement node,so that the heap is complete binary tree
+		- then we have to heapify the heap
+		- when the replacement value is greater than parent - fix the heap above. Else fix the heap below
+		- fix heap above : already did it for insert
+		- fix heap below : 
+				- swap the replacement value with the larger of its two children
+				- repeat this until the replcement value is in its correct position
+		- remember we have to only fix above or fix below
+	
+	- traversal
+		- just print the array
+	
+	JDK implementation - PriorityQueue
+	
 Graph (implementation)
+----------------------
 
 
 
 
-
+	- traversal
+		- for both the traversals we have to specify start vertex
+		- for both the traversal we need a Set to keep track of the visited vertex
+		- DFS
+			- we need an additional Stack to store the adjacent vertex
+		
+		- BFS
+			- we need an additional Queue to store the adjacent vertex
+		
 
