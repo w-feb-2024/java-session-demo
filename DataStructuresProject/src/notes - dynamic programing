@@ -1,0 +1,32 @@
+fibonacii series
+
+0 1 1 2 3 5 8 13 21 ......
+
+
+
+DP follows 2 techniques
+	- memoization
+		- storing the computed value in a cache/hashmap and retriving the computed value to avoid recursion
+	- tabulation
+		- knapsack problem
+		
+Knapsack problem
+	- we are given some items with weight and profit
+	- we also have a container/knapsack/bag whose maximum weight/capacity will be given
+	- maximum profit that we can take out of this
+			weights = {3,4,6,5}
+			profits = {2,3,1,4}
+			
+			W = 8 
+			n = 4 
+
+0/1 Knapsack
+	- solved using DP
+
+
+Fractional Knapsack
+	- solved using greedy algorithm
+	- 3 approaches
+		- 1st approach: select items first with max profit
+		- 2nd approach: select items first with minimum weight
+		- 3rd approach: select items first with maximum ratio of profit / weight

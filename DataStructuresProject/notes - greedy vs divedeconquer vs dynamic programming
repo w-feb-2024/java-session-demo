@@ -1,0 +1,39 @@
+
+Greedy Algorithm
+------------------
+1. makes locally optimal choices at each given step  
+2. tries to find best solution among the possible solution that it has	
+3. used to solve optimized problem
+4. we may or may not get a optimal solution				
+5. Iterative in nature
+6. extra memory is not required
+7. eg:
+	Dijkshtra's agorithm
+	Fractional Knapsack
+	
+Divide and Conquer algorithm	
+----------------------------					
+1. break dowm a problem into smaller subproblems, solve these sub problems recursively, then 
+	combine the solution of these sub problems to solve the original problem
+3. used to solve decision problem
+4. we will get a solution
+5. Recursive in nature
+6. need some extra memory
+7. eg:
+	Merge sort
+	quick sort
+	matrix multiplication
+
+
+Dynamic programming
+-------------------
+1. solves subproblems recursively and stores the solution to avoid repeated calculations
+2. solves a problem by breaking it down into smaller subproblems solving each recursively
+3. used to solve optimized problem				
+4. it will always generate optional solution
+5. Recursive in nature
+6. need memory to store result of subproblems for later use 
+7. eg: 
+		fibonacci with memoization
+		0/1 knapsack
+		

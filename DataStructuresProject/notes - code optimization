@@ -1,0 +1,49 @@
+code optimization in compiler design
+------------------------------------
+ - a critical phase in the process of compiler design that aims to improve the 
+ 	efficiency and performace of compiled programs
+ - adv: faster excecution, effiecient memory utilization, enhanced performance
+ 
+ commonly used code optimization techniques by the compiler
+ 1. Constant folding
+ 	- evaluation constant expressions at compile time with computed results
+ 	- rather than computing at runtime it is computed at compile time itself
+ 		int result = 2 + 3 * 7;
+ 		the compiler will compute 23 and 
+ 		int result = 23;
+ 		
+ 2. dead code elimination
+ 	- identifying and removing code segments that are unreachable or have no 
+ 		impact on the program's output
+ 	eg:
+ 	
+ 		int a = 8;
+ 		if(a > 20){
+ 			int b = a * 2;
+ 		}
+ 		
+ 		by elimating the dead code, compiler will produce
+ 		
+ 		int a = 8;
+ 
+ 3. common sub expression elimation
+ 		- aims at recognizing expressions that have already been computed and storing their results for reuse.
+ 	eg:
+ 		int a = b + c;
+ 		int d = b + c * 2;
+ 		
+ 		compiler will
+ 		
+ 		int temp = b + c;
+ 		int a = temp;
+ 		int d = temp * 2;
+ 		
+ 4. strength reduction
+ 	- aims at replacing expensive or complex operations with simpler and more efficient alternatives
+ 		int result = a * 8;
+ 		
+ 		muliplication is an expensive operation. 8 is 2^3
+ 		compiler will replace as 
+ 		
+ 		int result = a << 3;
+ 
