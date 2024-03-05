@@ -1,0 +1,59 @@
+JDBC - Java DataBase Connectivity
+
+Client/server architure
+-----------------------
+1. Client sends request to the server
+2. the server the request, processes it
+3. the server send a response back to the client
+
+here who is the client? - java program
+other clients could be - workbench for mysql, psql for postgres
+who is the server? - db server
+
+for a client to reach the server
+--------------------------------
+1. Protocol
+2. ipaddress of the server
+3. port number - generally a 4 digit number 
+4. credentials
+
+Steps
+-----
+1. create the necessary tables at the DB side
+2. write your java program
+	2.1 Load the driver ( is not needed from JDBC 4.0 version, it is automatically loaded)
+
+	2.2 Establish connection with server
+
+	2.3 Create a Statement and execute it
+
+	2.4 handle the exception
+
+
+in jdbc, we have 3 types of statement
+	- Statement
+		- every time when we execute the statement, the query is compiled and executed at the DB side
+
+			Statement stmt = conn.createStatement();
+			String query = "...";
+			int rowsAffected = stmt.executeUpdate(query);
+
+	- PreparedStatement
+		- pre-compiled statements
+			- at the time of creating the prepared statement, the query is sent ot the DB and compiled once
+			- then every time when we execute the prepared statement, the query is only executed at the DB side
+
+			String query = "delete from book_details where book_id=?";
+			PreparedStatement pstmt = conn.prepareStatement(query);
+			pstmt.setInt(1, bookId);
+			int rowsAffected = pstmt.executeUpdate();
+
+	- CallableStatement
+		- used to call stored procedure in the DB
+
+
+also we have 3 types of executeMethods
+
+	boolean result = stmt.execute(query); --------------> DDL - create, alter, drop
+	int rowsAffected = stmt.executeUpdate(query);-------> DML - insert, update, delete
+	ResultSet rs = stmt.executeQuery(query); -----------> DQL - select
