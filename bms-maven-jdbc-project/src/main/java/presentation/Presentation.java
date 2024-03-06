@@ -107,8 +107,6 @@ public class Presentation {
 		System.out.println("Enter Book Cost: ");
 		int bCost = scan.nextInt();
 		
-		
-		
 		// construct the new book pojo object
 		BookPojo newBook = new BookPojo(0, bTitle, new AuthorPojo(0, null, null), bCost, null, bGenre, "");
 		return newBook;

@@ -29,7 +29,8 @@ Steps
 
 	2.4 handle the exception
 
-
+	2.5 close the connection
+	
 in jdbc, we have 3 types of statement
 	- Statement
 		- every time when we execute the statement, the query is compiled and executed at the DB side
