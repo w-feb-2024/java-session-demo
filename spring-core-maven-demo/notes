@@ -1,0 +1,10 @@
+steps to intorduce spring core
+------------------------------
+1. add the jar file dependencies in pom.xml
+2. we should configure these beans
+	these beans can be configured in 3 ways
+		- xml based configuration
+		- annotation based configuration
+		- java based configuration
+3. In the main method create the spring core container
+4. just ask the spring core container to give you an object of Account

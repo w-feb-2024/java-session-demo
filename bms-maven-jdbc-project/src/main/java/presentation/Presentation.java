@@ -1,5 +1,6 @@
 package presentation;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
@@ -57,7 +58,15 @@ public class Presentation {
 	
 	public static void displayOptionalBookPojo(Optional<BookPojo> optionalBP) {
 		if(optionalBP.isPresent()) {
-			System.out.println(optionalBP.get());
+			System.out.println("***********************************");
+			System.out.println("Book Information");
+			System.out.println("***********************************");
+			System.out.println("Book Id: " + optionalBP.get().getBookId());
+			System.out.println("Book Title: " + optionalBP.get().getBookTitle());
+			System.out.println("Book Genre: " + optionalBP.get().getBookGenre());
+			System.out.println("Book Author Id: " + optionalBP.get().getAuthor().getAuthorId());
+			System.out.println("Book Price: " + optionalBP.get().getBookPrice());
+			System.out.println("***********************************");
 		} else {
 			System.out.println("Sorry! Book id does not exist!");
 		}
@@ -104,11 +113,13 @@ public class Presentation {
 		String bTitle = scan.nextLine();
 		System.out.println("Enter Book Genre: ");
 		String bGenre = scan.nextLine();
+		System.out.println("Enter Book Published Date(yyyy-mm-dd): ");
+		LocalDate bPubDate = LocalDate.parse(scan.next());
 		System.out.println("Enter Book Cost: ");
 		int bCost = scan.nextInt();
 		
 		// construct the new book pojo object
-		BookPojo newBook = new BookPojo(0, bTitle, new AuthorPojo(0, null, null), bCost, null, bGenre, "");
+		BookPojo newBook = new BookPojo(0, bTitle, new AuthorPojo(0, null, null), bGenre, bPubDate, bCost, "");
 		return newBook;
 
 	}

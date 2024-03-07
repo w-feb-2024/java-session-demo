@@ -24,7 +24,7 @@ public class BookDaoJdbcImpl implements BookDao{
 			PreparedStatement pstmt = conn.prepareStatement(DBNativeSqlQueries.BOOK_FETCH_ALL);
 			ResultSet rs = pstmt.executeQuery();
 			while(rs.next()) {
-				BookPojo book = new BookPojo(rs.getInt(1), rs.getString(2), new AuthorPojo(rs.getInt(3),null,null),rs.getInt(6), LocalDate.parse(rs.getString(5)), rs.getString(4), rs.getString(7));
+				BookPojo book = new BookPojo(rs.getInt(1), rs.getString(2), new AuthorPojo(rs.getInt(3),null,null),rs.getString(4), LocalDate.parse(rs.getString(5)), rs.getInt(6), rs.getString(7));
 				allBooks.add(book);
 			}
 		} catch (SQLException e) {
@@ -42,7 +42,7 @@ public class BookDaoJdbcImpl implements BookDao{
 			pstmt.setInt(1, bookId);
 			ResultSet rs = pstmt.executeQuery();
 			if(rs.next()) {
-				BookPojo book = new BookPojo(rs.getInt(1), rs.getString(2), new AuthorPojo(rs.getInt(3),null,null),rs.getInt(4), LocalDate.parse(rs.getString(5)), rs.getString(6), rs.getString(7));
+				BookPojo book = new BookPojo(rs.getInt(1), rs.getString(2), new AuthorPojo(rs.getInt(3),null,null),rs.getString(4), LocalDate.parse(rs.getString(5)), rs.getInt(6), rs.getString(7));
 				bookOptional = Optional.of(book);
 			}
 		} catch (SQLException e) {
@@ -61,7 +61,7 @@ public class BookDaoJdbcImpl implements BookDao{
 			pstmt.setString(1, genre);
 			ResultSet rs = pstmt.executeQuery();
 			while(rs.next()) {
-				BookPojo book = new BookPojo(rs.getInt(1), rs.getString(2), new AuthorPojo(rs.getInt(3),null,null),rs.getInt(4), LocalDate.parse(rs.getString(5)), rs.getString(6), rs.getString(7));
+				BookPojo book = new BookPojo(rs.getInt(1), rs.getString(2), new AuthorPojo(rs.getInt(3),null,null),rs.getString(4), LocalDate.parse(rs.getString(5)), rs.getInt(6), rs.getString(7));
 				allBooks.add(book);
 			}
 		} catch (SQLException e) {
@@ -121,5 +121,4 @@ public class BookDaoJdbcImpl implements BookDao{
 		}
 		return updateBook;
 	}
-
 }

@@ -7,20 +7,20 @@ public class BookPojo {
 	private int bookId;
 	private String bookTitle;
 	private AuthorPojo author;
-	private int bookPrice;
-	private LocalDate bookPublished;
 	private String bookGenre;
+	private LocalDate bookPublished;
+	private int bookPrice;
 	private String bookImageUrl;
 	
-	public BookPojo(int bookId, String bookTitle, AuthorPojo author, int bookPrice, LocalDate bookPublished,
-			String bookGenre, String bookImageUrl) {
+	public BookPojo(int bookId, String bookTitle, AuthorPojo author, String bookGenre, LocalDate bookPublished,
+			int bookPrice, String bookImageUrl) {
 		super();
 		this.bookId = bookId;
 		this.bookTitle = bookTitle;
 		this.author = author;
-		this.bookPrice = bookPrice;
-		this.bookPublished = bookPublished;
 		this.bookGenre = bookGenre;
+		this.bookPublished = bookPublished;
+		this.bookPrice = bookPrice;
 		this.bookImageUrl = bookImageUrl;
 	}
 
@@ -48,12 +48,12 @@ public class BookPojo {
 		this.author = author;
 	}
 
-	public int getBookPrice() {
-		return bookPrice;
+	public String getBookGenre() {
+		return bookGenre;
 	}
 
-	public void setBookPrice(int bookPrice) {
-		this.bookPrice = bookPrice;
+	public void setBookGenre(String bookGenre) {
+		this.bookGenre = bookGenre;
 	}
 
 	public LocalDate getBookPublished() {
@@ -64,12 +64,12 @@ public class BookPojo {
 		this.bookPublished = bookPublished;
 	}
 
-	public String getBookGenre() {
-		return bookGenre;
+	public int getBookPrice() {
+		return bookPrice;
 	}
 
-	public void setBookGenre(String bookGenre) {
-		this.bookGenre = bookGenre;
+	public void setBookPrice(int bookPrice) {
+		this.bookPrice = bookPrice;
 	}
 
 	public String getBookImageUrl() {
@@ -105,8 +105,8 @@ public class BookPojo {
 
 	@Override
 	public String toString() {
-		return "BookPojo [bookId=" + bookId + ", bookTitle=" + bookTitle + ", author=" + author + ", bookPrice="
-				+ bookPrice + ", bookPublished=" + bookPublished + ", bookGenre=" + bookGenre + ", bookImageUrl="
+		return "BookPojo [bookId=" + bookId + ", bookTitle=" + bookTitle + ", author=" + author + ", bookGenre="
+				+ bookGenre + ", bookPublished=" + bookPublished + ", bookPrice=" + bookPrice + ", bookImageUrl="
 				+ bookImageUrl + "]";
 	}
 }
