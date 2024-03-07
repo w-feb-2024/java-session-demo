@@ -4,11 +4,18 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 		https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="account" class="mybeans.Account">  
+	<bean id="account" class="mybeans.Account"  scope="prototype">  
 		<!-- <constructor-arg name="accNo" value="1050"></constructor-arg>
-		<constructor-arg name="accName" value="Michael Jackson"></constructor-arg> -->
+		<constructor-arg name="accName" value="Michael Jackson"></constructor-arg>
+		<constructor-arg name="address" ref="add"></constructor-arg> -->
 		<property name="accNo" value="2060"></property>
 		<property name="accName" value="Will Smith"></property>
+		<property name="address" ref="add"></property>
+	</bean>
+	
+	<bean id="add" class="mybeans.Address">
+		<constructor-arg name="city" value="Hyderabad"></constructor-arg>
+		<constructor-arg name="state" value="Telanga"></constructor-arg>
 	</bean>
 
 	

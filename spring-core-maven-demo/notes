@@ -1,10 +1,40 @@
-steps to intorduce spring core
-------------------------------
+steps to introduce spring core - xml based configuration
+--------------------------------------------------------
 1. add the jar file dependencies in pom.xml
-2. we should configure these beans
-	these beans can be configured in 3 ways
+2. we should configure these beans in an xml file
+	- we can use constructor or setter injection and this is all specified in the xml file
+3. In the main method create the spring core container - ClassPathXmlApplicationContext
+4. just ask the spring core container to give you an object of Account
+
+
+steps to introduce spring core - annotation based configuration
+--------------------------------------------------------
+1. add the jar file in pom.xml
+2. we add an xml file with these tags
+	<context:annotation-config/>
+	<context:component-scan base-package="mybeans"></context:component-scan>
+3. Use the @Component annotation above the bean classes in mybeans package
+4. since Account is dependent on Address use @Autowired annotation above the contructor for constructor injection.
+	- if you want setter injection, use @Autowired above setter method
+	- if you want field injection, use @Autowired above the field/property
+3. In the main method create the spring core container - ClassPathXmlApplicationContext
+4. just ask the spring core container to give you an object of Account
+
+the beans can be configured in 3 ways
+---------------------------------------
 		- xml based configuration
 		- annotation based configuration
 		- java based configuration
-3. In the main method create the spring core container
-4. just ask the spring core container to give you an object of Account
+types of dependency injection
+-----------------------------
+	- constructor injection
+	- setter injection
+	- field injection
+	
+scopes
+------
+	- singleton
+	- prototype
+	- request
+	- session
+	
