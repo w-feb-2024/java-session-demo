@@ -10,21 +10,39 @@ steps to introduce spring core - xml based configuration
 steps to introduce spring core - annotation based configuration
 --------------------------------------------------------
 1. add the jar file in pom.xml
-2. we add an xml file with these tags
+2. we add an xml file with these tags ( not required if you are working with AnnotationConfigApplicationContext)
 	<context:annotation-config/>
 	<context:component-scan base-package="mybeans"></context:component-scan>
 3. Use the @Component annotation above the bean classes in mybeans package
 4. since Account is dependent on Address use @Autowired annotation above the contructor for constructor injection.
 	- if you want setter injection, use @Autowired above setter method
 	- if you want field injection, use @Autowired above the field/property
-3. In the main method create the spring core container - ClassPathXmlApplicationContext
+3. In the main method create the spring core container 
+		- ClassPathXmlApplicationContext
+			- this neeads an xml file with 2 tags
+				<context:annotation-config/>
+				<context:component-scan base-package="mybeans"></context:component-scan>
+		- AnnotationConfigApplicationContext
+			- this does not need xml file
 4. just ask the spring core container to give you an object of Account
+
+steps to introduce spring core - java based configuration
+--------------------------------------------------------
+1. add the jar file in pom.xml
+2. we create a java class and annotate it with @Configuration
+3. inside this clss, create methods which return the bean object and annotate these methods with @Bean
+3. In the main method create the spring core container 
+		- AnnotationConfigApplicationContext
+			- pass the configuration class in its constructor
+4. just ask the spring core container to give you an object of Account
+	- the bean id becomes the methods name if the bean name is not specified
 
 the beans can be configured in 3 ways
 ---------------------------------------
 		- xml based configuration
 		- annotation based configuration
 		- java based configuration
+		
 types of dependency injection
 -----------------------------
 	- constructor injection

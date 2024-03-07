@@ -3,6 +3,7 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+import config.AppConfig;
 import mybeans.Account;
 import mybeans.Address;
 
@@ -49,11 +50,21 @@ public class MainDemo {
 		System.out.println(acc5);
 		
 		System.out.println("----------------------------");
+		// one way
+		//use annoattion-beans.xml, if you want to specify that it is annotation based configuration 
+			//and specify the base packages to be scanned in the xml file
 		//ClassPathXmlApplicationContext context1 = new ClassPathXmlApplicationContext("annotation-beans.xml");
+		
+		// the other way - if you dont want to use xml file, then use AnnotationConfigApplicationContext and pass
+			// the base package in the constructor
 		AnnotationConfigApplicationContext context1 = new AnnotationConfigApplicationContext("mybeans");
 		Account account1 = context1.getBean("account", Account.class);
 		System.out.println(account1);
 		
+		System.out.println("----------------------------");
+		AnnotationConfigApplicationContext context2 = new AnnotationConfigApplicationContext(AppConfig.class);
+		Account account2 = context2.getBean("retrieveAccount", Account.class);
+		System.out.println(account2);
 	}
 
 }
