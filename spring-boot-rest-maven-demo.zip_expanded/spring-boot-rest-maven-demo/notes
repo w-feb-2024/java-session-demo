@@ -1,0 +1,28 @@
+to create the endpoints of the backend application,
+----------------------------------------------------
+- we need Spring REST
+- this application is a monolithic application : entire backend application is a single spring boot project
+- we are bringing spring  boot inside because
+	- HELPS FOR FASTER DEVELOPMENT
+	- spring boot already has default/opiniated configurations which we can use. 
+	- we can override these configurations if we want to
+	- when we create a spring boot project we can choose the build tool
+	- also the bulk dependencies can be specified in pom.xml file
+- going forward for backend application we will be creating a spring boot project
+- how do we create a spring boot project?
+	- using Eclipse STS : Spring Tool Suite
+	- using spring initializer : https://start.spring.io/
+		- here we create the project online and download it and import it into eclipse
+				- choose maven as build tool
+				- choose java as the language
+				- leave the spring boot version as it is
+				- specify group id and artifact id
+				- add the required dependencies
+				- for spring rest type web and add the dependency
+				- add lombok dependency if you want to autogenerate constructors, getters/setters,
+						equals/hashcode/roString
+- once created, next we start creating endpoints using Spring REST
+
+
+how to create endpoint in the spring boot project in eclipse
+------------------------------------------------------------
