@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -49,9 +52,21 @@ public class BookController {
 	}
 	
 	// add a book
+	// http://localhost:9595/v1/api/books
+	@PostMapping("/api/books")
+	public BookPojo addBook(@RequestBody BookPojo newBook) { // using @RequestBody annotation will copy the incoming request body into the newBook object
+		BookPojo returnedPojo = bookService.addBook(newBook);
+		return returnedPojo;
+	}
 	
 	// update a book
-	
+	// http://localhost:9595/v1/api/books
+	@PutMapping("/api/books")
+	public BookPojo updateBook(@RequestBody BookPojo updateBookPojo) { // using @RequestBody annotation will copy the incoming request body into the newBook object
+		BookPojo returnedPojo = bookService.updateBook(updateBookPojo);
+		return returnedPojo;
+	}
+
 	// delete a book
 	// http://localhost:9595/v1/api/books/6
 	@DeleteMapping("/api/books/{bookId}")
