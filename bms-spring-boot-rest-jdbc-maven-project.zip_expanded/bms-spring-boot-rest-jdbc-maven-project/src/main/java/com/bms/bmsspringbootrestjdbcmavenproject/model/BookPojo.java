@@ -3,13 +3,26 @@ package com.bms.bmsspringbootrestjdbcmavenproject.model;
 import java.time.LocalDate;
 import java.util.Objects;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotNull;
+
 public class BookPojo {
+	
 	private int bookId;
+	
+	@NotNull
 	private String bookTitle;
+	
+	@NotNull
 	private AuthorPojo author;
+	
+	@NotNull
 	private String bookGenre;
+	
 	private LocalDate bookPublished;
-	private int bookPrice;
+	
+	private Integer bookPrice;
+	
 	private String bookImageUrl;
 	
 	public BookPojo(int bookId, String bookTitle, AuthorPojo author, String bookGenre, LocalDate bookPublished,

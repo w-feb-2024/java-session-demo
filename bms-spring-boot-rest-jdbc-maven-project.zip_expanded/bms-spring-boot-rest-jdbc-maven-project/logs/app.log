@@ -1,0 +1,857 @@
+2024-03-12T11:57:38.235+05:30  INFO 20948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-12T11:57:38.249+05:30  INFO 20948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-12T11:57:46.882+05:30  INFO 20948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T11:57:47.007+05:30  INFO 20948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T11:57:47.009+05:30  INFO 20948 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T11:57:47.462+05:30  INFO 20948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T11:57:47.466+05:30  INFO 20948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9192 ms
+2024-03-12T11:57:51.684+05:30  INFO 20948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T11:57:51.896+05:30  INFO 20948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T12:05:43.815+05:30  INFO 20948 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T12:05:44.544+05:30  INFO 20948 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 20948 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T12:05:44.550+05:30  INFO 20948 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T12:05:46.265+05:30  INFO 20948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T12:05:46.267+05:30  INFO 20948 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T12:05:46.411+05:30  INFO 20948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T12:05:47.288+05:30  INFO 20948 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.891 seconds (process running for 495.055)
+2024-03-12T12:06:08.315+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 19212 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T12:06:08.326+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T12:06:15.624+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T12:06:15.627+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T12:06:16.202+05:30  INFO 19212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T12:06:20.649+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 14.991 seconds (process running for 18.278)
+2024-03-12T12:07:25.635+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 19212 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T12:07:25.637+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T12:07:27.363+05:30  INFO 19212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T12:07:27.372+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T12:07:27.374+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T12:07:27.631+05:30  INFO 19212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T12:07:27.636+05:30  INFO 19212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1978 ms
+2024-03-12T12:07:28.785+05:30  INFO 19212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T12:07:28.839+05:30  INFO 19212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T12:07:28.850+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 3.367 seconds (process running for 86.479)
+2024-03-12T12:07:28.862+05:30  INFO 19212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T12:08:23.649+05:30  INFO 19212 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T12:09:11.203+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 19212 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T12:09:11.206+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T12:09:12.655+05:30  INFO 19212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T12:09:12.659+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T12:09:12.660+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T12:09:12.930+05:30  INFO 19212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T12:09:12.931+05:30  INFO 19212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1711 ms
+2024-03-12T12:09:13.685+05:30  INFO 19212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T12:09:13.809+05:30  INFO 19212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T12:09:13.900+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.764 seconds (process running for 191.529)
+2024-03-12T12:09:13.906+05:30  INFO 19212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T12:37:21.318+05:30  INFO 19212 --- [http-nio-9595-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T12:37:21.332+05:30  INFO 19212 --- [http-nio-9595-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T12:37:21.447+05:30  INFO 19212 --- [http-nio-9595-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 114 ms
+2024-03-12T12:37:29.973+05:30  INFO 19212 --- [http-nio-9595-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 4181 ms
+2024-03-12T13:04:53.962+05:30  INFO 19212 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T13:04:54.854+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 19212 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T13:04:54.856+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T13:04:56.650+05:30  INFO 19212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T13:04:56.657+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T13:04:56.659+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T13:04:56.809+05:30  INFO 19212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T13:04:56.810+05:30  INFO 19212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1860 ms
+2024-03-12T13:04:57.509+05:30  INFO 19212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T13:04:57.556+05:30  INFO 19212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T13:04:57.571+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 3.01 seconds (process running for 3535.199)
+2024-03-12T13:04:57.599+05:30  INFO 19212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T13:05:22.791+05:30  INFO 19212 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T13:05:23.213+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 19212 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T13:05:23.258+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T13:05:24.607+05:30  INFO 19212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T13:05:24.611+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T13:05:24.612+05:30  INFO 19212 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T13:05:24.768+05:30  INFO 19212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T13:05:24.772+05:30  INFO 19212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1505 ms
+2024-03-12T13:05:25.624+05:30  INFO 19212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T13:05:25.679+05:30  INFO 19212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T13:05:25.738+05:30  INFO 19212 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.641 seconds (process running for 3563.367)
+2024-03-12T13:05:25.742+05:30  INFO 19212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T13:07:12.325+05:30  INFO 19212 --- [http-nio-9595-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T13:07:12.326+05:30  INFO 19212 --- [http-nio-9595-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T13:07:12.334+05:30  INFO 19212 --- [http-nio-9595-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-03-12T13:08:09.398+05:30  INFO 20572 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 20572 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T13:08:09.406+05:30  INFO 20572 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T13:08:09.874+05:30  INFO 20572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-12T13:08:09.877+05:30  INFO 20572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-12T13:08:19.201+05:30  INFO 20572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T13:08:19.303+05:30  INFO 20572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T13:08:19.306+05:30  INFO 20572 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T13:08:19.854+05:30  INFO 20572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T13:08:19.857+05:30  INFO 20572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9963 ms
+2024-03-12T13:08:25.606+05:30  INFO 20572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T13:08:25.892+05:30  INFO 20572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T13:08:25.970+05:30  INFO 20572 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 19.269 seconds (process running for 22.14)
+2024-03-12T13:08:43.784+05:30  INFO 20572 --- [http-nio-9595-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T13:08:43.785+05:30  INFO 20572 --- [http-nio-9595-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T13:08:43.793+05:30  INFO 20572 --- [http-nio-9595-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-03-12T13:09:44.189+05:30  INFO 20572 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T13:09:44.615+05:30  INFO 20572 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 20572 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T13:09:44.619+05:30  INFO 20572 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T13:09:46.094+05:30  INFO 20572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T13:09:46.098+05:30  INFO 20572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T13:09:46.100+05:30  INFO 20572 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T13:09:46.201+05:30  INFO 20572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T13:09:46.202+05:30  INFO 20572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1526 ms
+2024-03-12T13:09:47.271+05:30  INFO 20572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T13:09:47.314+05:30  INFO 20572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T13:09:47.368+05:30  INFO 20572 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.93 seconds (process running for 103.536)
+2024-03-12T13:09:47.374+05:30  INFO 20572 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T13:10:03.759+05:30  INFO 20572 --- [http-nio-9595-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T13:10:03.761+05:30  INFO 20572 --- [http-nio-9595-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T13:10:03.763+05:30  INFO 20572 --- [http-nio-9595-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-12T13:17:58.481+05:30  INFO 20572 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-03-12T13:18:15.474+05:30  INFO 20572 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 20572 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T13:18:15.475+05:30  INFO 20572 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T13:18:15.934+05:30  INFO 20572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T13:18:15.936+05:30  INFO 20572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T13:18:15.937+05:30  INFO 20572 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T13:18:15.985+05:30  INFO 20572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T13:18:15.986+05:30  INFO 20572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 508 ms
+2024-03-12T13:18:16.160+05:30  INFO 20572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T13:18:16.178+05:30  INFO 20572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T13:18:16.184+05:30  INFO 20572 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 0.762 seconds (process running for 612.355)
+2024-03-12T13:18:16.187+05:30  INFO 20572 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T13:18:27.212+05:30  INFO 20572 --- [http-nio-9595-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T13:18:27.214+05:30  INFO 20572 --- [http-nio-9595-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T13:18:27.215+05:30  INFO 20572 --- [http-nio-9595-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-12T13:18:54.920+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T13:18:54.925+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T13:18:55.032+05:30  INFO 9896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-12T13:18:55.032+05:30  INFO 9896 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-12T13:18:58.629+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T13:18:58.679+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T13:18:58.680+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T13:18:58.874+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T13:18:58.875+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3841 ms
+2024-03-12T13:19:00.489+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T13:19:00.616+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T13:19:00.650+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 6.438 seconds (process running for 7.122)
+2024-03-12T13:19:11.874+05:30  INFO 9896 --- [http-nio-9595-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T13:19:11.875+05:30  INFO 9896 --- [http-nio-9595-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T13:19:11.877+05:30  INFO 9896 --- [http-nio-9595-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-12T13:19:12.371+05:30  WARN 9896 --- [http-nio-9595-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo> com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController.addBook(com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo): [Field error in object 'bookPojo' on field 'bookTitle': rejected value [null]; codes [NotNull.bookPojo.bookTitle,NotNull.bookTitle,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookTitle,bookTitle]; arguments []; default message [bookTitle]]; default message [must not be null]] ]
+2024-03-12T14:19:07.211+05:30  WARN 9896 --- [http-nio-9595-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo> com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController.addBook(com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo): [Field error in object 'bookPojo' on field 'bookTitle': rejected value [null]; codes [NotNull.bookPojo.bookTitle,NotNull.bookTitle,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookTitle,bookTitle]; arguments []; default message [bookTitle]]; default message [must not be null]] ]
+2024-03-12T14:21:27.051+05:30  WARN 9896 --- [http-nio-9595-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo> com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController.addBook(com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo): [Field error in object 'bookPojo' on field 'bookGenre': rejected value [null]; codes [NotNull.bookPojo.bookGenre,NotNull.bookGenre,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookGenre,bookGenre]; arguments []; default message [bookGenre]]; default message [must not be null]] ]
+2024-03-12T16:11:11.625+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 15 class path changes (1 addition, 4 deletions, 10 modifications)
+2024-03-12T16:11:16.943+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:11:16.945+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:11:19.751+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:11:19.756+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:11:19.758+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:11:19.934+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:11:19.935+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2966 ms
+2024-03-12T16:11:20.909+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:11:20.955+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:11:20.984+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 4.942 seconds (process running for 10347.456)
+2024-03-12T16:11:21.009+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:11:22.923+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 5 class path changes (4 additions, 0 deletions, 1 modification)
+2024-03-12T16:11:23.314+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:11:23.318+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:11:25.211+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:11:25.215+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:11:25.215+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:11:25.356+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:11:25.357+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1985 ms
+2024-03-12T16:11:26.044+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:11:26.156+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:11:26.176+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.979 seconds (process running for 10352.648)
+2024-03-12T16:11:26.195+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:14:18.327+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:14:18.943+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:14:18.954+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:14:21.122+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:14:21.125+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:14:21.127+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:14:21.263+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:14:21.268+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2296 ms
+2024-03-12T16:14:21.386+05:30  WARN 9896 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler': Lookup method resolution failed
+2024-03-12T16:14:21.390+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-12T16:14:21.411+05:30  INFO 9896 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-12T16:14:21.627+05:30 ERROR 9896 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1294) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.bms.bmsspringbootrestjdbcmavenproject.BmsSpringBootRestJdbcMavenProjectApplication.main(BmsSpringBootRestJdbcMavenProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [org.springframework.web.server.handler.ResponseStatusExceptionHandler] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@659e0bfd]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: reactor/core/publisher/Mono
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.4.jar:6.1.4]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: reactor.core.publisher.Mono
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 30 common frames omitted
+
+2024-03-12T16:16:27.149+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:16:27.151+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:16:29.109+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:16:29.117+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:16:29.118+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:16:29.274+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:16:29.281+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2119 ms
+2024-03-12T16:16:30.021+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:16:30.066+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:16:30.098+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 3.206 seconds (process running for 10656.571)
+2024-03-12T16:16:30.103+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:16:47.801+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:16:48.254+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:16:48.256+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:16:50.009+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:16:50.013+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:16:50.014+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:16:50.232+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:16:50.233+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1936 ms
+2024-03-12T16:16:51.012+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:16:51.124+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:16:51.136+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 3.006 seconds (process running for 10677.608)
+2024-03-12T16:16:51.151+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:17:35.625+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:17:36.230+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:17:36.232+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:17:39.160+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:17:39.166+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:17:39.167+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:17:39.449+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:17:39.450+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3021 ms
+2024-03-12T16:17:39.970+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:17:40.012+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:17:40.022+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 4.025 seconds (process running for 10726.494)
+2024-03-12T16:17:40.024+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:19:10.515+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:19:10.961+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:19:10.963+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:19:13.746+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:19:13.750+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:19:13.753+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:19:13.979+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:19:13.979+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3008 ms
+2024-03-12T16:19:14.781+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:19:14.821+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:19:14.882+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 4.095 seconds (process running for 10821.355)
+2024-03-12T16:19:14.912+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:20:58.226+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:20:58.796+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:20:58.799+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:21:00.004+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:21:00.008+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:21:00.014+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:21:00.099+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:21:00.099+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1266 ms
+2024-03-12T16:21:00.596+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:21:00.622+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:21:00.629+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.088 seconds (process running for 10927.102)
+2024-03-12T16:21:00.638+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:21:37.956+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:21:38.257+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:21:38.258+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:21:39.932+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:21:39.937+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:21:39.939+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:21:40.113+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:21:40.114+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1837 ms
+2024-03-12T16:21:40.605+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:21:40.641+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:21:40.653+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.466 seconds (process running for 10967.125)
+2024-03-12T16:21:40.656+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:24:33.639+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:24:34.521+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:24:34.530+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:24:36.851+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:24:36.854+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:24:36.854+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:24:37.033+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:24:37.034+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2425 ms
+2024-03-12T16:24:37.232+05:30  WARN 9896 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+2024-03-12T16:24:37.233+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-12T16:24:37.257+05:30  INFO 9896 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-12T16:24:37.268+05:30 ERROR 9896 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1317) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1202) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.bms.bmsspringbootrestjdbcmavenproject.BmsSpringBootRestJdbcMavenProjectApplication.main(BmsSpringBootRestJdbcMavenProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1311) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method getField() is undefined for the type ObjectError
+
+	at com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler.<init>(GlobalExceptionHandler.java:22) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 24 common frames omitted
+
+2024-03-12T16:24:57.850+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:24:57.852+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:24:59.486+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:24:59.504+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:24:59.507+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:24:59.615+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:24:59.648+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1789 ms
+2024-03-12T16:24:59.724+05:30  WARN 9896 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+2024-03-12T16:24:59.732+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-12T16:24:59.749+05:30  INFO 9896 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-12T16:24:59.762+05:30 ERROR 9896 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1317) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1202) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.bms.bmsspringbootrestjdbcmavenproject.BmsSpringBootRestJdbcMavenProjectApplication.main(BmsSpringBootRestJdbcMavenProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1311) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	FieldError cannot be resolved to a type
+	FieldError cannot be resolved to a type
+
+	at com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler.<init>(GlobalExceptionHandler.java:22) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 24 common frames omitted
+
+2024-03-12T16:25:48.656+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:25:48.657+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:25:50.359+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:25:50.364+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:25:50.365+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:25:50.464+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:25:50.464+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1798 ms
+2024-03-12T16:25:51.714+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:25:51.831+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:25:51.845+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 3.342 seconds (process running for 11218.317)
+2024-03-12T16:25:51.860+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:25:57.527+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:25:58.377+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:25:58.378+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:26:05.110+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:26:05.117+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:26:05.120+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:26:05.432+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:26:05.433+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6839 ms
+2024-03-12T16:26:06.148+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:26:06.248+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:26:06.292+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 8.301 seconds (process running for 11232.764)
+2024-03-12T16:26:06.295+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:26:18.678+05:30  INFO 9896 --- [http-nio-9595-exec-2] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T16:26:18.679+05:30  INFO 9896 --- [http-nio-9595-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T16:26:18.684+05:30  INFO 9896 --- [http-nio-9595-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-03-12T16:26:19.108+05:30  WARN 9896 --- [http-nio-9595-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo> com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController.addBook(com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo): [Field error in object 'bookPojo' on field 'bookGenre': rejected value [null]; codes [NotNull.bookPojo.bookGenre,NotNull.bookGenre,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookGenre,bookGenre]; arguments []; default message [bookGenre]]; default message [must not be null]] ]
+2024-03-12T16:26:41.899+05:30  WARN 9896 --- [http-nio-9595-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo> com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController.addBook(com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo): [Field error in object 'bookPojo' on field 'bookGenre': rejected value [null]; codes [NotNull.bookPojo.bookGenre,NotNull.bookGenre,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookGenre,bookGenre]; arguments []; default message [bookGenre]]; default message [must not be null]] ]
+2024-03-12T16:28:03.911+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:28:04.348+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:28:04.350+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:28:05.640+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:28:05.643+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:28:05.644+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:28:05.783+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:28:05.783+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1424 ms
+2024-03-12T16:28:05.829+05:30  WARN 9896 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+2024-03-12T16:28:05.831+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-12T16:28:05.883+05:30  INFO 9896 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-12T16:28:05.901+05:30 ERROR 9896 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1317) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1202) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.bms.bmsspringbootrestjdbcmavenproject.BmsSpringBootRestJdbcMavenProjectApplication.main(BmsSpringBootRestJdbcMavenProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1311) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	FieldError cannot be resolved to a type
+	FieldError cannot be resolved to a type
+
+	at com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler.<init>(GlobalExceptionHandler.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 24 common frames omitted
+
+2024-03-12T16:28:33.699+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:28:33.700+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:28:35.397+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:28:35.408+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:28:35.409+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:28:35.637+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:28:35.640+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1924 ms
+2024-03-12T16:28:35.730+05:30  WARN 9896 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+2024-03-12T16:28:35.736+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-12T16:28:35.755+05:30  INFO 9896 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-12T16:28:35.769+05:30 ERROR 9896 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1317) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1202) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.bms.bmsspringbootrestjdbcmavenproject.BmsSpringBootRestJdbcMavenProjectApplication.main(BmsSpringBootRestJdbcMavenProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1311) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The import org.springframework.web.bind.annotation.FieldError cannot be resolved
+	FieldError cannot be resolved to a type
+	FieldError cannot be resolved to a type
+
+	at com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler.<init>(GlobalExceptionHandler.java:11) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 24 common frames omitted
+
+2024-03-12T16:38:29.522+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:38:29.955+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:38:33.077+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:38:33.090+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:38:33.090+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:38:33.408+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:38:33.409+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2968 ms
+2024-03-12T16:38:33.533+05:30  WARN 9896 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+2024-03-12T16:38:33.535+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-12T16:38:33.561+05:30  INFO 9896 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-12T16:38:33.582+05:30 ERROR 9896 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'globalExceptionHandler' defined in file [D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes\com\bms\bmsspringbootrestjdbcmavenproject\exception\GlobalExceptionHandler.class]: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1317) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1202) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.bms.bmsspringbootrestjdbcmavenproject.BmsSpringBootRestJdbcMavenProjectApplication.main(BmsSpringBootRestJdbcMavenProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:223) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:88) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1311) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method getField() is undefined for the type ObjectError
+
+	at com.bms.bmsspringbootrestjdbcmavenproject.exception.GlobalExceptionHandler.<init>(GlobalExceptionHandler.java:26) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:197) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 24 common frames omitted
+
+2024-03-12T16:38:59.887+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:38:59.888+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:39:01.058+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:39:01.069+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:39:01.070+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:39:01.220+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:39:01.222+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1329 ms
+2024-03-12T16:39:02.442+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:39:02.588+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:39:02.601+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.84 seconds (process running for 12009.074)
+2024-03-12T16:39:02.652+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:40:24.163+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:40:24.742+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:40:24.751+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:40:25.882+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:40:25.884+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:40:25.885+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:40:25.949+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:40:25.950+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1170 ms
+2024-03-12T16:40:26.357+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:40:26.391+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:40:26.398+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 1.772 seconds (process running for 12092.87)
+2024-03-12T16:40:26.400+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:40:48.485+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:40:48.950+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:40:48.951+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:40:50.310+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:40:50.315+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:40:50.317+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:40:50.547+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:40:50.548+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1590 ms
+2024-03-12T16:40:51.461+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:40:51.705+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:40:51.714+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.885 seconds (process running for 12118.186)
+2024-03-12T16:40:51.717+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:43:26.835+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:43:27.210+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:43:27.212+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:43:28.363+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:43:28.383+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:43:28.386+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:43:28.472+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:43:28.472+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1253 ms
+2024-03-12T16:43:29.055+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:43:29.082+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:43:29.095+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 1.993 seconds (process running for 12275.568)
+2024-03-12T16:43:29.102+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:44:10.475+05:30  INFO 9896 --- [http-nio-9595-exec-2] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T16:44:10.477+05:30  INFO 9896 --- [http-nio-9595-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T16:44:10.483+05:30  INFO 9896 --- [http-nio-9595-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-03-12T16:44:10.832+05:30  WARN 9896 --- [http-nio-9595-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo> com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController.addBook(com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo): [Field error in object 'bookPojo' on field 'bookGenre': rejected value [null]; codes [NotNull.bookPojo.bookGenre,NotNull.bookGenre,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookGenre,bookGenre]; arguments []; default message [bookGenre]]; default message [must not be null]] ]
+2024-03-12T16:45:30.818+05:30  INFO 9896 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:45:31.368+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 9896 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:45:31.373+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:45:34.933+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:45:34.939+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:45:34.939+05:30  INFO 9896 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:45:35.125+05:30  INFO 9896 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:45:35.127+05:30  INFO 9896 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3747 ms
+2024-03-12T16:45:35.955+05:30  INFO 9896 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:45:36.005+05:30  INFO 9896 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:45:36.054+05:30  INFO 9896 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 4.905 seconds (process running for 12402.526)
+2024-03-12T16:45:36.069+05:30  INFO 9896 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:45:39.956+05:30  INFO 9896 --- [http-nio-9595-exec-1] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T16:45:39.958+05:30  INFO 9896 --- [http-nio-9595-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T16:45:39.960+05:30  INFO 9896 --- [http-nio-9595-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-03-12T16:45:40.211+05:30  WARN 9896 --- [http-nio-9595-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo> com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController.addBook(com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo): [Field error in object 'bookPojo' on field 'bookGenre': rejected value [null]; codes [NotNull.bookPojo.bookGenre,NotNull.bookGenre,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookGenre,bookGenre]; arguments []; default message [bookGenre]]; default message [must not be null]] ]
+2024-03-12T16:46:25.654+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:46:25.691+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:46:26.159+05:30  INFO 27640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-12T16:46:26.160+05:30  INFO 27640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-12T16:46:36.971+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:46:37.111+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:46:37.113+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:46:37.590+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:46:37.592+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11429 ms
+2024-03-12T16:46:41.224+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:46:41.459+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:46:41.515+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 20.004 seconds (process running for 24.449)
+2024-03-12T16:47:05.462+05:30  INFO 27640 --- [http-nio-9595-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T16:47:05.465+05:30  INFO 27640 --- [http-nio-9595-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T16:47:05.512+05:30  INFO 27640 --- [http-nio-9595-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2024-03-12T16:47:08.033+05:30  WARN 27640 --- [http-nio-9595-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo> com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController.addBook(com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo) with 2 errors: [Field error in object 'bookPojo' on field 'bookGenre': rejected value [null]; codes [NotNull.bookPojo.bookGenre,NotNull.bookGenre,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookGenre,bookGenre]; arguments []; default message [bookGenre]]; default message [must not be null]] [Field error in object 'bookPojo' on field 'bookTitle': rejected value [null]; codes [NotNull.bookPojo.bookTitle,NotNull.bookTitle,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookTitle,bookTitle]; arguments []; default message [bookTitle]]; default message [must not be null]] ]
+2024-03-12T16:48:28.552+05:30  INFO 27640 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:48:30.013+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:48:30.019+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:48:33.668+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:48:33.670+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:48:33.671+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:48:33.787+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:48:33.790+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3689 ms
+2024-03-12T16:48:33.828+05:30  WARN 27640 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookController': Lookup method resolution failed
+2024-03-12T16:48:33.830+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-12T16:48:33.845+05:30  INFO 27640 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-03-12T16:48:34.252+05:30 ERROR 27640 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:497) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:367) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1294) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:959) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.4.jar:6.1.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.3.jar:3.2.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.3.jar:3.2.3]
+	at com.bms.bmsspringbootrestjdbcmavenproject.BmsSpringBootRestJdbcMavenProjectApplication.main(BmsSpringBootRestJdbcMavenProjectApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@7a55dd3b]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.4.jar:6.1.4]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:475) ~[spring-beans-6.1.4.jar:6.1.4]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/bms/bmsspringbootrestjdbcmavenproject/model/BookPojo
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.4.jar:6.1.4]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.2.3.jar:3.2.3]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 30 common frames omitted
+
+2024-03-12T16:48:37.960+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:48:37.962+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:48:42.306+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:48:42.313+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:48:42.317+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:48:42.652+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:48:42.663+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4693 ms
+2024-03-12T16:48:45.164+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:48:45.296+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:48:45.313+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 7.748 seconds (process running for 148.247)
+2024-03-12T16:48:45.322+05:30  INFO 27640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:48:52.332+05:30  INFO 27640 --- [http-nio-9595-exec-3] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-12T16:48:52.335+05:30  INFO 27640 --- [http-nio-9595-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-12T16:48:52.345+05:30  INFO 27640 --- [http-nio-9595-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2024-03-12T16:48:52.662+05:30  WARN 27640 --- [http-nio-9595-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo> com.bms.bmsspringbootrestjdbcmavenproject.controller.BookController.addBook(com.bms.bmsspringbootrestjdbcmavenproject.model.BookPojo) with 2 errors: [Field error in object 'bookPojo' on field 'bookGenre': rejected value [null]; codes [NotNull.bookPojo.bookGenre,NotNull.bookGenre,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookGenre,bookGenre]; arguments []; default message [bookGenre]]; default message [must not be null]] [Field error in object 'bookPojo' on field 'bookTitle': rejected value [null]; codes [NotNull.bookPojo.bookTitle,NotNull.bookTitle,NotNull.java.lang.String,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [bookPojo.bookTitle,bookTitle]; arguments []; default message [bookTitle]]; default message [must not be null]] ]
+2024-03-12T16:49:25.470+05:30  INFO 27640 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:49:25.952+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:49:25.953+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:49:27.946+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:49:27.952+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:49:27.961+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:49:28.257+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:49:28.258+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2271 ms
+2024-03-12T16:49:29.267+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:49:29.320+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:49:29.332+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 3.519 seconds (process running for 192.266)
+2024-03-12T16:49:29.338+05:30  INFO 27640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:52:18.872+05:30  INFO 27640 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-03-12T16:52:19.388+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:52:19.390+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:52:22.058+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:52:22.070+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:52:22.072+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:52:22.395+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:52:22.396+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2878 ms
+2024-03-12T16:52:23.357+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:52:23.472+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:52:23.536+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 4.4 seconds (process running for 366.47)
+2024-03-12T16:52:23.565+05:30  INFO 27640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:52:33.116+05:30  INFO 27640 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:52:33.622+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:52:33.623+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:52:35.498+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:52:35.519+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:52:35.524+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:52:35.751+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:52:35.753+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2055 ms
+2024-03-12T16:52:36.565+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:52:36.618+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:52:36.700+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 3.269 seconds (process running for 379.635)
+2024-03-12T16:52:36.717+05:30  INFO 27640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:53:05.434+05:30  INFO 27640 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:53:06.143+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:53:06.146+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:53:07.579+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:53:07.582+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:53:07.583+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:53:07.890+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:53:07.891+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1732 ms
+2024-03-12T16:53:08.907+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:53:08.938+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:53:08.949+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.932 seconds (process running for 411.883)
+2024-03-12T16:53:08.955+05:30  INFO 27640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:53:10.395+05:30  INFO 27640 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:53:10.834+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:53:10.839+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:53:12.196+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:53:12.200+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:53:12.202+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:53:12.345+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:53:12.350+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1501 ms
+2024-03-12T16:53:13.191+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:53:13.262+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:53:13.284+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.669 seconds (process running for 416.218)
+2024-03-12T16:53:13.293+05:30  INFO 27640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:55:16.633+05:30  INFO 27640 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:55:16.998+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:55:17.002+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:55:18.592+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:55:18.594+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:55:18.596+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:55:18.794+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:55:18.796+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1781 ms
+2024-03-12T16:55:19.329+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:55:19.354+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:55:19.397+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.56 seconds (process running for 542.332)
+2024-03-12T16:55:19.403+05:30  INFO 27640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:55:46.090+05:30  INFO 27640 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 16 class path changes (0 additions, 4 deletions, 12 modifications)
+2024-03-12T16:55:52.793+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:55:52.795+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:55:53.718+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:55:53.721+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:55:53.722+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:55:53.873+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:55:53.876+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1077 ms
+2024-03-12T16:55:54.306+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:55:54.336+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:55:54.347+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 1.701 seconds (process running for 577.281)
+2024-03-12T16:55:54.350+05:30  INFO 27640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-03-12T16:58:05.792+05:30  INFO 27640 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-03-12T16:58:06.279+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Starting BmsSpringBootRestJdbcMavenProjectApplication using Java 17.0.8 with PID 27640 (D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project\target\classes started by Poongs in D:\Poongs\eclipse-workspace\w-feb-2024\bms-spring-boot-rest-jdbc-maven-project.zip_expanded\bms-spring-boot-rest-jdbc-maven-project)
+2024-03-12T16:58:06.292+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T16:58:07.738+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9595 (http)
+2024-03-12T16:58:07.742+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T16:58:07.743+05:30  INFO 27640 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-12T16:58:07.987+05:30  INFO 27640 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-03-12T16:58:07.990+05:30  INFO 27640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1638 ms
+2024-03-12T16:58:08.898+05:30  INFO 27640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-03-12T16:58:08.946+05:30  INFO 27640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9595 (http) with context path ''
+2024-03-12T16:58:08.964+05:30  INFO 27640 --- [restartedMain] pringBootRestJdbcMavenProjectApplication : Started BmsSpringBootRestJdbcMavenProjectApplication in 2.841 seconds (process running for 711.898)
+2024-03-12T16:58:08.968+05:30  INFO 27640 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

@@ -1,0 +1,22 @@
+
+
+@RestController
+	- used above the controller class
+@Service
+	- used above the service class impl
+@Repository
+	- used above the dao class impl
+@Autowired
+	- used to autowired bookServiceImpl and bookDaoImpl
+@GetMapping
+	- used to create a get endpoint and fetch data 
+@DeleteMapping
+	- used to create a delete endpoint and delete data 
+@PostMapping
+	- used to create a post endpoint and add data
+@PutMapping
+	- used to create a put endpoint and update data
+@PathVariable
+	- to copy the incoming path variable into the rest controller method's parameter/argument
+@RequestBody
+	- to copy the incoming request body with json object into a pojo object

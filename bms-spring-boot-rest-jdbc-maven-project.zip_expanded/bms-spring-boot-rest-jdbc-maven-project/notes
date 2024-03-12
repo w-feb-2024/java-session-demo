@@ -1,0 +1,75 @@
+topics for 12th march
+---------------------
+
+swagger
+-------
+	- an alternate for postman
+	- provides a complete consolidation of the endp point in your spring boot application
+	- steps
+		1. include maven dependency in pom.xml, for spring boot 3 include swagger 2
+			<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui -->
+			<dependency>
+			    <groupId>org.springdoc</groupId>
+			    <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			    <version>2.2.0</version>
+			</dependency>
+		2. restart the spring boot project
+		3. force update the maven project
+		4. access the swagger ui in a browser
+			http://localhost:9595/swagger-ui/index.html
+	
+ResponseEntity
+--------------
+	- till now all the rest methods were returning a collection of pojo or a pojo or void
+	- but now we will make the method return a ResponseEntity object
+	- by returning a ResponseEntity object we can specify the reponse body, reponse header and response status code
+	 
+logging
+-------
+	- spring boot already has a logging framework intergrated and configured
+	- so we can go ahead and start using this logging framework
+	- however by default it logs into the console.
+	- but we can make it log to a file
+	- steps
+		1. create the Logger object
+			Logger logger = LoggerFactory.getLogger(BookController.class);
+		2. using the Logger object log the information
+		3. this will log the info on the console.
+		4. to log the info in a log file specify these 2 lines in application.properties file
+			logging.file.path=logs/
+			logging.file.name=logs/app.log
+	- further exploration - explore rolling files
+	
+	- currently everything is logged in the log file, have to seprate it
+	- more info on logging
+		https://docs.spring.io/spring-boot/docs/2.1.13.RELEASE/reference/html/boot-features-logging.html
+	- https://stackoverflow.com/questions/30499443/how-to-write-log-messages-to-file-using-spring-boot
+	
+input validation
+----------------
+	- the data that comes through the request body is copied into a pojo
+	- we would want to validate this input at the time copying it into the pojo
+	- so in the pojo use jakarta input validation annotations
+	- steps
+		1. include the maven dependency in pom.xml
+			<dependency>
+	        	<groupId>org.springframework.boot</groupId>
+	        	<artifactId>spring-boot-starter-validation</artifactId>
+	    	</dependency>
+		2. include jakarta input validation annotations above the fields of the BookPojo
+		3. use the @Valid annotation in front of the @RequestBody annotation for the validation to take place
+		4. if you dont use @Valid annotation, validation will not take place
+		5. now test the post and put endpoints to see if the validation takes place
+	
+global exception handler
+------------------------
+	- any exception that occurs in the backend application has to be gracefully sent to the client
+	- for this we can do global exception handling
+	- steps
+		1. create a class and annotate with @ControllerAdvice
+		2. also make it extend ResponseEntityExceptionHandler
+		3. override the method handleMethodArgumentNotValid in this to act like exception handlers
+		4. test the endpoints by violation the validation annotations
+
+datasource in spring boot
+--------------------------
