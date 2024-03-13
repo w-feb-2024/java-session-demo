@@ -1,0 +1,70 @@
+ORM - Object Relational Mapping
+
+- it is a concept
+- has got nothing to do with spring framework for now
+- this concept is applicable on the dao layer of the project
+
+
+problems faced using vanilla jdbc
+---------------------------------
+- had to configure driver and connection and closing the connection
+	- fix : use a datasource
+- the select query returns a ResultSet
+- we had to write native sql query
+	- fix : go for ORM, we dont have to write any native sql query, but it also flexible
+- writing complex joins in native SQL is difficult for java developers
+	- fix : go for ORM
+
+
+what exactly is ORM?
+	- a concept
+	- we map an entity class in java to a table in database 
+
+what is JPA?
+	- stands for Java Persistence API
+	- a specification which is documented
+	- more protocols/details are specified on the ORM concept 
+
+what is Hibernate?
+	- a implementation framework 
+	- hibernate framework provides implementation on JPA specification - recomended ( beacause it will be easy to switch ORM framework later if required)
+	- hibernate framework also provides implementation on Hibernate specification - not recomended
+	- for now hibernate is a popular ORM framework
+
+what is spring data JPA?
+	- spring data JPA is a framework
+	- and this framework wraps around hibernate framework, further making it easy for us to use hibernate framework
+	- and it also provides the implementation code.
+	- in this training we are working with spring Data JPA 
+
+
+how do we do the mapping?
+------------------------
+	- we do the mapping witht he annotations, to be more specific it is jpa annotations
+	
+
+table : student_details
+stud_id(P.K)
+stud_name
+stud_mark
+
+@Entity  // this annotation tell the ORM framework that it is an entity - mandatory
+@Table("student_details")  // this annotation maps the enitity class with a table in the DB - optional if table name and entity class name are the same
+public class StudentEntity{
+	
+	@Id // mandatory as we have to tell the orm framework which is the primary key
+	@Column("stud_id") // optional if column name and variable name are same
+	private int studentId;
+
+	@Column("stud_name")
+	private String studentName;
+
+	@Column("stud_mark")
+	private String studentMark;
+}
+
+
+steps while working with spring data jpa
+-----------------------------------------
+1. add the spring-data-jpa maven dependency in your spring boot project
+2. create entities and map them to your table in the DB

@@ -1,10 +1,45 @@
+steps to create a spring boot rest bms project
+----------------------------------------------
+	- use the spring intializr website to create a spring boot project
+	- choose maven, java, spring boot version remains as 3
+	- specify the group id and the artifact id
+	- add the maven dependencies
+		- web (spring-starter-web)
+		- lombok
+		- mysql connector
+		- spring dev tools
+	- generate the projects, which will download it
+	- import the project into eclipse
+	- if you want to change the port number of tomcat server, specify in application.properties
+			server.port=9595
+	- create all the packages for model, dao, service, controller
+	- copy the model, dao and service files in the respective package
+	- start creating the controller class
+	- create a class in controller package and annotate it with @RestController
+	- also use @RequestingMapping
+	- now inside the class use @Autowired annotation for the ServiceImpl.
+	- for autowiring to work, the ServiceImpl class should be annotated with @Service.
+	- Likewise, in the ServiceImpl use @Autowired annotation for the DaoImp.
+	- for autowiring to work, the DaoImpl class should be annotated with @Repository.
+	- Now coming back to Controller class, create the enpoints
+	- endpoints are public methods annotated with @GetMapping or @DeleteMapping or @PutMapping(@PatchMapping) or @PostMapping
+	- these methods should return ResponseEntity objects and inside this object we can send the response body, response header and response status code
+	- 					path variable					request body			response body
+		get endpoint	may or maynot						no 						yes
+		delete enpoint       yes							no					developer choice(convention is void)
+		post endpoint   developer choice(convention is no)	yes						yes
+		put endpoint	developer choice(convention is no)  yes						developer choice(convention is yes)
+	- these methods in turn call the methods of the service layer
+	- to copy the path variable into the method argument use @PathVariable
+	- to copy the request body into the pojo method argument @RequestBody
+
 topics for 12th march
 ---------------------
 
 swagger
 -------
 	- an alternate for postman
-	- provides a complete consolidation of the endp point in your spring boot application
+	- provides a complete consolidation of the endpoints in your spring rest application
 	- steps
 		1. include maven dependency in pom.xml, for spring boot 3 include swagger 2
 			<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui -->
@@ -32,15 +67,18 @@ logging
 	- but we can make it log to a file
 	- steps
 		1. create the Logger object
+			import org.slf4j.Logger;
+			import org.slf4j.LoggerFactory;
 			Logger logger = LoggerFactory.getLogger(BookController.class);
+			
 		2. using the Logger object log the information
 		3. this will log the info on the console.
-		4. to log the info in a log file specify these 2 lines in application.properties file
+		4. to log the info in a log file as well specify these 2 lines in application.properties file
 			logging.file.path=logs/
 			logging.file.name=logs/app.log
 	- further exploration - explore rolling files
 	
-	- currently everything is logged in the log file, have to seprate it
+	- currently everything is logged in the log file, have to seprate it ( for this we have to use seperate logging configuration files)
 	- more info on logging
 		https://docs.spring.io/spring-boot/docs/2.1.13.RELEASE/reference/html/boot-features-logging.html
 	- https://stackoverflow.com/questions/30499443/how-to-write-log-messages-to-file-using-spring-boot
@@ -49,7 +87,7 @@ input validation
 ----------------
 	- the data that comes through the request body is copied into a pojo
 	- we would want to validate this input at the time copying it into the pojo
-	- so in the pojo use jakarta input validation annotations
+	- so in the pojo class use jakarta input validation annotations
 	- steps
 		1. include the maven dependency in pom.xml
 			<dependency>
@@ -69,7 +107,10 @@ global exception handler
 		1. create a class and annotate with @ControllerAdvice
 		2. also make it extend ResponseEntityExceptionHandler
 		3. override the method handleMethodArgumentNotValid in this to act like exception handlers
-		4. test the endpoints by violation the validation annotations
+		4. test the endpoints by violating the validation annotations
+		5. also you can create exception handler method for custom exception like BookNotFoundExeption
+		6. For this use the @ExceptionHandler(BookNotFoundException.class) above the handler method.
 
 datasource in spring boot
 --------------------------
+	- we will see this along with ORM
