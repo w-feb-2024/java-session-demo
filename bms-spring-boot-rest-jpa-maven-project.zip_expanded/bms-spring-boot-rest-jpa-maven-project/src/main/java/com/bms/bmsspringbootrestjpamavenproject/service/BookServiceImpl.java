@@ -56,7 +56,18 @@ public class BookServiceImpl implements BookService{
 
 	@Override
 	public List<BookPojo> fetchByBookGenre(String genre) {
-		return null;
+		//List<BookEntity> allBooksEntity = bookDao.findByBookGenre(genre);
+		List<BookEntity> allBooksEntity = bookDao.getAllBooksByGenre(genre);
+		List<BookPojo> allBooksPojo = new ArrayList<>();
+		for(BookEntity eachBookEntity: allBooksEntity) {
+			BookPojo bookPojo = new BookPojo();
+			BeanUtils.copyProperties(eachBookEntity, bookPojo);
+			AuthorPojo authorPojo = new AuthorPojo();
+			BeanUtils.copyProperties(eachBookEntity.getAuthor(), authorPojo);
+			bookPojo.setAuthor(authorPojo);
+			allBooksPojo.add(bookPojo);
+		}
+		return allBooksPojo;
 	}
 
 	@Override

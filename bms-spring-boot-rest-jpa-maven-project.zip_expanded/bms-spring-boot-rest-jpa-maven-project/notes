@@ -155,3 +155,31 @@ ORM annotations used for relation mapping is
 @JoinColumn
 @JoinTable 
 
+how to use other sql queries other than the basic crud queries?
+---------------------------------------------------------------
+1. Query methods
+	- here method name matters.
+	- method name has to follow a particular sequence based on which the sql query is generated
+		List<BookEntity> findByBookGenre(String genre);
+	ref: https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
+	
+2. JPQL - Java Persistence Querying Language
+	- here method name does not matter
+	- we use @Query annotation above the method and provide JPQL
+	- eg: 
+	@Query("select b from BookEntity b where b.bookGenre=?1")
+	List<BookEntity> getAllBooksByGenre(String genre);
+	
+		Native SQL - works on the table and column of the DB
+		select * from book_details where book_genre="Commedy";
+		
+		JPQL - works on the entity class and its variables
+		select b from BookEntity b where b.bookGenre="Commedy";
+		
+3. Named Queries
+		ref : https://docs.spring.io/spring-data/jpa/docs/current-SNAPSHOT/reference/html/#reference
+4. Native sql
+	- here we use native sql instead of jpql
+	@Query(name="select * from book_details where book_genre=?1", nativeQuery=true)
+	List<BookEntity> getAllBooksByGenre(String genre);
+
